@@ -1,13 +1,12 @@
 body, html{
   height:100%;
   margin:0;
-  font-size:16px;
-  font-family:"Lato", sans-serif;
-  font-weight:400;
+  font-size:20px;
+  font-family: 'Dosis', sans-serif;
+  font-weight:4000;
   line-height:1.8em;
   color:#666;
   text-anchor:center;
-
 }
 
 
@@ -17,8 +16,7 @@ body, html{
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
-
-background-attachment:fixed;
+  background-attachment:fixed;
 }
 
 .pimg1{
@@ -28,39 +26,38 @@ background-attachment:fixed;
 
 .pimg2{
   background-image:url('../img/image1.jpg');
-  min-height:300px;
+  min-height:450px;
 }
 
 .pimg3{
   background-image:url('../img/image2.jpg');
-  min-height:300px;
+  min-height:450px;
 }
 .pimg4{
   background-image:url('../img/image3.jpg');
-  min-height:300px;
+  min-height:450px;
 
-}
-
-.section{
-  text-align:center;
-  padding:50px 80px;
 }
 
 .section-light{
   background-color:#f4f4f4;
   color:#666;
+  text-align:center;
+  padding:50px 80px;
 }
 
 .section-dark{
   background-color:#282e34;
   color:#ddd;
+  text-align:center;
+  padding:50px 80px;
 }
 
 .ptext{
   position:absolute;
   top:50%;
-  width:1500px;
-  text-align:right;
+  width:100%;
+  text-align:center;
   color:#000;
   font-size:57px;
   letter-spacing:8px;
@@ -80,8 +77,6 @@ background-attachment:fixed;
   background-color:transparent;
 }
 
-
-}
 .bottombox2{
 	margin-left:0px;
 	margin-right:1500px;
@@ -127,20 +122,4 @@ ul{
   font-size:60%;
   letter-spacing:8px;
   text-transform:uppercase;
-}
-
-.cirlce{
-width:100px;
-padding:50px 0;
-line-height:0;
-margin: 60px auto;
-background:black;
-color:white;
-border-radius:50px;
-transition:1s;
-
-}
-.circle:hover{
-  background:salmon;
-  transform:rotate(360deg);
 }
