@@ -28,16 +28,16 @@ background-attachment:fixed;
 
 .pimg2{
   background-image:url('../img/image1.jpg');
-  min-height:400px;
+  min-height:300px;
 }
 
 .pimg3{
-  background-image:url('../img/image1.jpg');
-  min-height:400px;
+  background-image:url('../img/image2.jpg');
+  min-height:300px;
 }
 .pimg4{
-  background-image:url('../img/image1.jpg');
-  min-height:400px;
+  background-image:url('../img/image3.jpg');
+  min-height:300px;
 
 }
 
@@ -75,13 +75,6 @@ background-attachment:fixed;
   opacity:0.5;
   overflow: hidden;
 }
-.ptext2 .border{
-  background-color:#111;
-  color:#fff;
-  padding:20px;
-  overflow: hidden;
-}
-
 
 .ptext .border.trans{
   background-color:transparent;
@@ -108,15 +101,17 @@ background-attachment:fixed;
   font-size: 125%;
   line-height: 1.5em;
   width:200px;
+  transition:background 1s, transform 3s ease-in; 
 
 }
+.btn:hover{
+background:darkgray;
+transform:rotate(2deg);
+}
 
-a:hover,  {
-  background-color: white; }
-a:visited, a:active{
-	color:white;
-	background-color: white; } 
-
+button:active{
+    background:gray;
+}
 h2{
 	font-size:40px;
   font-family: 'Kanit', sans-serif;
@@ -132,4 +127,20 @@ ul{
   font-size:60%;
   letter-spacing:8px;
   text-transform:uppercase;
+}
+
+.cirlce{
+width:100px;
+padding:50px 0;
+line-height:0;
+margin: 60px auto;
+background:black;
+color:white;
+border-radius:50px;
+transition:1s;
+
+}
+.circle:hover{
+  background:salmon;
+  transform:rotate(360deg);
 }
