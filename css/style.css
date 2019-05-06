@@ -7,6 +7,12 @@ body, html{
   line-height:1.8em;
   color:#666;
   text-anchor:center;
+
+}
+@media screen and (max-width: 1080px) {
+    .btn {
+         width: 400px;
+    }
 }
 
 .pimg1, .pimg2, .pimg3{
@@ -115,6 +121,7 @@ background-attachment:fixed;
   font-size: 20px;
   width:100px;
   content:center;
+  overflow: hidden;
 }
 
 a:hover,  {
