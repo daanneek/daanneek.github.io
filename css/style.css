@@ -129,3 +129,14 @@ h2{
 ul{
 	list-style-type: none;
 }
+.ptext3{
+  font-family:"Lato", sans-serif;
+  position:middle;
+  width:100%;
+  text-align:center;
+  color:#FFF;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+
+}
