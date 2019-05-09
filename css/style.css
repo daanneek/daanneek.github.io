@@ -15,7 +15,7 @@ body, html{
   position:relative;
   opacity:0.90;
   background-position:center;
-  background-size:cover;
+  background-size:center;
   background-repeat:no-repeat;
   background-attachment:fixed;
 }
@@ -83,6 +83,7 @@ body, html{
 	margin-top:30px;
 	margin-bottom:10px;
 	font-size:15px;
+
 }
 
 .btn {
