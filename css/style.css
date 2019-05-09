@@ -12,7 +12,7 @@ body, html{
 * {box-sizing:border-box}
 
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
   position:relative;
   opacity:0.90;
   background-position:center;
@@ -36,9 +36,12 @@ body, html{
   min-height:450px;
 }
 .pimg4{
-  background-image:url('../img/image3.jpg');
+  background-image:url('../img/image4.jpg');
   min-height:450px;
-
+}
+.pimg5{
+  background-image:url('../img/image5.jpg');
+  min-height:450px;
 }
 
 .section-light{
@@ -63,11 +66,6 @@ body, html{
   color:#000;
   font-size:50px;
   letter-spacing:8px;
-  transition:background 1s
-}
-.ptext:hover{
-background:darkgray;
-
 }
 .ptext .border{
 
