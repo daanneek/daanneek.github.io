@@ -96,15 +96,12 @@ body, html{
   font-size: 125%;
   line-height: 1.5em;
   width:200px;
-  transition:background 1s, transform 3s ease-in; }
+  transition-duration: 0.4s; }
 
 .btn:hover{
-background:darkgray;
-transform:rotate(2deg);}
+background:#31383f;
+}
 
-
-button:active{
-    background:gray;}
 
 h2{
 	font-size:40px;
@@ -147,3 +144,21 @@ ul{
 .java {width: 10%; background-color: #98d8e0;color:black;} 
 .csharp {width: 15%; background-color: #98d8e0;color:black;} 
 .python {width: 25%; background-color: #98d8e0;color:black;} 
+
+.border2{
+  background-color:#fff;
+  color:black;
+  padding:27px;
+  font-weight:bold;
+  overflow: hidden;
+  display: inline-block;
+  margin-left:30px;
+  margin-right:30px;
+}
+.text:border2{
+
+
+}
+.border2:hover{
+background-color:black;
+}
