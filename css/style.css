@@ -3,7 +3,7 @@ body, html{
   width:100%;
   margin:0;
   font-size:20px;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight:4000;
   line-height:1.8em;
   color:#666;
@@ -66,6 +66,7 @@ body, html{
   color:#000;
   font-size:45px;
   letter-spacing:8px;
+  
 }
 .ptext .border{
 
@@ -105,14 +106,13 @@ background:#31383f;
 
 h2{
 	font-size:40px;
-  font-family: 'Kanit', sans-serif;}
+}
 
 
 ul{
 	list-style-type: none;}
 
 .ptext3{
-  font-family:"Lato", sans-serif;
   position:middle;
   text-align:center;
   color:#000;
