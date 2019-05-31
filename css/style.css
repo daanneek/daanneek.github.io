@@ -10,7 +10,11 @@ body, html{
   text-anchor:center;
 }
 * {box-sizing:border-box}
-
+  h2{
+   font-size:40px;
+ }
+ul{
+   list-style-type: none;}
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
   position:relative;
@@ -70,14 +74,14 @@ body, html{
   overflow: hidden;
   display: inline-block;
 }
-.bottombox2{
-	margin-left:0px;
-	margin-right:1500px;
-	margin-top:30px;
-	margin-bottom:10px;
-	font-size:15px;
 
+.color1{
+  background-color: #123145;
+  padding:20px;
+  width:80%;
+  height:20px;
 }
+
 
 .btn {
   padding: .3em .8em;
@@ -92,92 +96,64 @@ body, html{
   width:200px;
   transition-duration: 0.4s; }
 
-.btn:hover{
-background:#31383f;
-}
+  .btn:hover{
+    background:#31383f;
+  }
+
+   .ptext3{
+    position:middle;
+    text-align:center;
+    color:#000;
+    font-size:60%;
+    letter-spacing:8px;
+    text-transform:uppercase;}
 
 
-h2{
-	font-size:40px;
-}
+    .container {
+      width: 100%; 
+      background-color:#31383f;  
+      border-radius: 25px;     }
+
+      .skills {
+        text-align: right;
+        padding: 1px;
+        color: white;
+        transition:background 0.5s;
+        box-shadow: 0px 0px 15px #fff;
+        border-radius: 25px;}
 
 
-ul{
-	list-style-type: none;}
+        .skills:hover{
+          background-color:#78b2ba;}
 
-.ptext3{
-  position:middle;
-  text-align:center;
-  color:#000;
-  font-size:60%;
-  letter-spacing:8px;
-  text-transform:uppercase;}
+          .html {width: 25%; background-color: #98d8e0;color:black;} 
+          .xml {width: 35%; background-color: #98d8e0;color:black;} 
+          .css {width: 20%; background-color: #98d8e0;color:black;} 
+          .java {width: 15%; background-color: #98d8e0;color:black;} 
+          .csharp {width: 15%; background-color: #98d8e0;color:black;} 
+          .python {width: 25%; background-color: #98d8e0;color:black;} 
 
-
-.container {
-  width: 100%; 
-  background-color:#31383f;  
-  border-radius: 25px;     }
-
-.skills {
-  text-align: right;
-  padding: 1px;
-  color: white;
-  transition:background 0.5s;
-  box-shadow: 0px 0px 15px #fff;
-  border-radius: 25px;}
-
-
-.skills:hover{
-  background-color:#78b2ba;}
-
-.html {width: 25%; background-color: #98d8e0;color:black;} 
-.xml {width: 35%; background-color: #98d8e0;color:black;} 
-.css {width: 20%; background-color: #98d8e0;color:black;} 
-.java {width: 15%; background-color: #98d8e0;color:black;} 
-.csharp {width: 15%; background-color: #98d8e0;color:black;} 
-.python {width: 25%; background-color: #98d8e0;color:black;} 
-
-.border2{
-  background-color:#fff;
-  color:black;
-  padding:27px;
-  font-weight:bold;
-  overflow: hidden;
-  display: inline-block;
-  margin-left:30px;
-  margin-right:30px;
-}
-.text:border2{
-
-
-}
-.border2:hover{
-background-color:black;
-}
-/* The navigation bar */
-.navbar {
-
-  background-color: #31383f;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 5px;
-  width: 20%;
-  text-decoration: none;
-}
-
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
+          }
+          .border2:hover{
+            background-color:black;
+          }
+          .navbar {
+            background-color: #31383f;
+            position: fixed; 
+            top: 0; 
+            width: 100%; 
+          }
+          .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 5px;
+            width: 20%;
+            text-decoration: none;
+          }
+          .navbar a:hover {
+            background: #ddd;
+            color: black;
+          }
 
