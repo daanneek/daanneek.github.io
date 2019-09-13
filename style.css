@@ -4,6 +4,9 @@
 	box-sizing:border-box;
 	scroll-behavior:smooth;
 	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+
+
 }
 nav{
 	display:flex;
@@ -14,11 +17,15 @@ nav{
 	position: fixed;
   	top:0;
   	width:100%;
+
+}
+
+hr{
+ 	text-align:center;
 }
 .name{
 	height:2000px;
 	font-family: 'Permanent Marker', cursive;
-
 	font-size:100px;
 	text-shadow: 2px 2px black;
 	text-align:center;
@@ -124,9 +131,8 @@ nav{
 	font-size:15px;
 	padding:40px;
 	text-align:left;
-
-
 }
+
 .ptext{
   	position:absolute;
   	top:40%;
@@ -150,6 +156,40 @@ nav{
 .image1{
 
 	width:1920px;
-	height:1080px;
-	overflow:hidden;
+  	height:1080px;
+  	overflow-x:hidden;
+
+}
+.imageoverflow{
+	overflow-x:hidden;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1 ;
+}
+.two { 
+  grid-column: 2;
+  grid-row: 1 ;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
 }
