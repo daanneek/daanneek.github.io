@@ -20,12 +20,23 @@ nav{
 
 }
 
-hr{
- 	text-align:center;
-}
+
 
 a{
 	text-decoration:none;
+}
+
+a:visited {
+  color: white;
+}
+a:hover{
+	color:black;
+}
+a:active{
+	color:black;
+}
+h1{
+	text-align:center;
 }
 
 
@@ -108,6 +119,8 @@ a{
 	font-size:15px;
 	padding:40px;
 	text-align:left;
+	padding-left:400px;
+	padding-right:400px;
 }
 
 .ptext{
@@ -144,33 +157,47 @@ a{
   display: grid;
   grid-auto-columns: auto;
   grid-gap: 10px;
-  grid-auto-rows: 100px;
+  grid-auto-rows: 10vw;    /* Height of the project cards*/
   padding:40px;
 
 }
 .one {
   grid-column: 1;
   grid-row: 1 ;
+  background-image:url("images/wallpaper.jpg");
+  text-align:center;
+
 }
 .two { 
   grid-column: 2;
   grid-row: 1 ;
+  background-image:url("images/wallpaper.jpg");
+  text-align:center; 
 }
 .three {
   grid-column: 3;
   grid-row: 1;
+  background-image:url("images/wallpaper.jpg");
+  text-align:center;
 }
 .four {
   grid-column: 1;
   grid-row: 2;
+  background-image:url("images/wallpaper.jpg");
+  text-align:center;
 }
 .five {
   grid-column: 2;
   grid-row: 2;
+  background-image:url("images/wallpaper.jpg");
+  text-align:center;
+
 }
 .six {
   grid-column: 3;
   grid-row: 2;
+  background-image:url("images/wallpaper.jpg");
+  text-align:center;
 }
 
 .ProjectText{
