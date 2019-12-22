@@ -1,0 +1,64 @@
+body {
+  background-color: #000;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+.Contact{
+    font-size:22px;
+  color:white;
+  font-family: 'Inconsolata', monospace;
+}
+.blinking-cursor {
+  color:white;
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+}
+
+.consoleText{
+  font-size:22px;
+  color:white;
+  font-family: 'Inconsolata', monospace;
+}
+
+.consoleText:hover{
+  text-decoration: none;
+}
+a {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
