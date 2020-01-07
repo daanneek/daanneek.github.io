@@ -1,102 +1,58 @@
-<html> 
-<head> 
-	<title>Portfolio</title> 
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="index.css">
-</head> 
-<body> 
-	<div class = "consoleText">
-		MicroWind softows [Version 10.0.18363.535]
-	</div>
-	<div class = "consoleText">
-		(c) 2019 MicroWind softows. All rights reserved.
-	</div>
-	<br>
-	<div class = "consoleText">C:\Users\Daan>help</div>
-	<br>
-	<div class = "consoleText">For more information on a specific topic, click on its name.</div>
-	<br>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0"/>
+        <title>Portfolio</title>
+        <style>
+            body {margin: 5% auto; margin-top:0px; background: #f2f2f2; color: #444444; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.8; text-shadow: 0 1px 0 #ffffff; max-width: 73%;}
+            code {background: white;}
+            a {border-bottom: 1px solid #444444; color: #444444; text-decoration: none;}
+            a:hover {border-bottom: 0;}
+        </style>
+    </head>
+    <body>
+        <header>
 
-	<div class = "consoleText"><a onclick="AboutMe()">ABOUT ME</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;A description of me, what I want to do and accomplish.
-		<div id="AboutMe" class = "AboutMe">
-			Daan Nekeman is a computer science student who is extremely motivated to learn about everything to do with computers. Most of my time is spend learning about how computers work, and what I can do with different programming languages.
+	    <h1><strong>Portfolio Daan Nekeman</strong></h1>
 
-			Some of the technologies i've started working on/with are python, c#, asp.net, git, java and the MVC design pattern. What I enjoy most is finding the best way to write a piece of code. 
-		</div>
-	</div><br><br>
-	<div class = "consoleText"><a onclick="Projects()">PROJECTS</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;!not implemented! The project I have worked on and am working on currently with, if available, a working example.
-		<div id="Projects" class = "Projects">
-			<p><a href = "https://github.com/daanneek/LibrarySystem">Public Library system, read and write from json with Python</a></p>
-			<p><a href = "#">Student Attendance website for Hogeschool Rotterdam !unfinished!</a></p>
-			<p><a href = "https://github.com/daanneek/FourInARow">Python 4-in-a-row game</a></p>
-			<p><a href = "#">C# dijkstra's algorithm implementation !unfinished!</a></p>
+	        Your first reaction to observing this beautiful website might be, 'Well, this is boring'. And you might be right, but after going through many options for this portfolio, this is the result.
+        </header>
+        
+        <h2><strong>About me</strong></h2>
 
-		</div>
-	</div><br><br>
-	<div class = "consoleText"><a onclick="myFunction()">CONTACT </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Want to contact me? Ways to message me can be found here.
+       		Hello, I'm a computer science student who is, <em> as you can see</em>, very interested in back-end development. While studying computer science in Rotterdam I had to work on many different projects and assignments, the three major ones are web-development, app-development and software development. My conclusion after working on these is that I do not like design, as i'm never completly satisfied with what I would design. 
+       		<br><br>
+       		Right now, <em>Januari 2020</em>, i'm looking for new opportunities to learn about C#. I used the language quite a lot in school and from all the high-level languages i've tried, it has been my favorite language. For my internship in my third year I would like to work with C# aswell.
 
-		<div id="Contact" class = "Contact">
-			<p>&emsp;&emsp;Email &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;daanneek@gmail.com</p>
-			<p>&emsp;&emsp;<a href = "https://github.com/daanneek">Github</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Github is where I 'store' my projects. Here you can find the source code for everything i've worked on.</p>
-			&emsp;&emsp;<a href = "https://www.linkedin.com/in/daan-nekeman-01955b188/">LinkedIn</a>
-		</div>
+       		You can download my Cirriculum Vitae <a href="CV.PDF">here</a> and my github page <a href="https://github.com/daanneek">here</a>.
 
-	</div><br><br>
-	<div class = "consoleText"><a href = "CV.pdf">CURRICULUM VITAE</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Download my CV here.
-	</div>
-	<br><br>
-	<div class = "consoleText"><a onclick = "AboutPage()">ABOUT THIS PAGE </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;A bit about this portfolio.
-		<div id="AboutPage" class = "AboutPage">
-				When thinking about what this portfolio had to be, I went through a lot of designs, looking at examples and lists of other peoples portfolio's. I didn't just want to copy someone's elses work though. This is  also why I didn't want to use a template. Then I found a website that uses the desktop of a computer to display their ideas and work. I found this to be very creative and that is when I came up  with this idea. I'm not good at front end design at all and its not necessarily what I want to persue in the future. That is why I wanted to keep it simple, and this is the result of that search. 
-		</div>
-	</div><br><br>
-	<div class = "consoleText">If you're missing any information don't fear to contact me using the link above.</div>
-	<br>
-	<a class = "consoleText">C:\Users\Daan></a> <span class="blinking-cursor">_</span>
 
-	<script>
-		var x = document.getElementById("Contact");
-		x.style.display = "none";
-		function myFunction() {
-			var x = document.getElementById("Contact");
-			if (x.style.display === "block") {
-				x.style.display = "none";
-			} else {
-				x.style.display = "block";
-			}
-		}
-		var y = document.getElementById("Projects");
-		y.style.display = "none";
-		function Projects() {
-			var y = document.getElementById("Projects");
-			if (y.style.display === "block") {
-				y.style.display = "none";
-			} else {
-				y.style.display = "block";
-			}
-		}
-		var z = document.getElementById("AboutMe");
-		z.style.display = "none";
-		function AboutMe() {
-			var z = document.getElementById("AboutMe");
-			if (z.style.display === "block") {
-				z.style.display = "none";
-			} else {
-				z.style.display = "block";
-			}
-		}
-		var a = document.getElementById("AboutPage");
-		a.style.display = "none";
-		function AboutPage() {
-			var a = document.getElementById("AboutPage");
-			if (a.style.display === "block") {
-				a.style.display = "none";
-			} else {
-				a.style.display = "block";
-			}
-		}
+        <h2><strong>Contact</strong></h2>
 
-	</script>
+        If you want to contact me with questions or requests, you can always send me an email to daanneek@gmail.com or message me on LinkedIn. 
 
-</body> 
+        	<br><br>
+		<a href="https://www.linkedin.com/in/daan-nekeman-01955b188/">LinkedIn</a>
+
+
+
+
+        <h1><strong>Me and this website</strong></h1>
+ 
+       		Now, as I mentioned in the little prologue up there, I went through quite a lot of ideas while developing my portfolio. I didn't really need it in the first 2 years of my studies, so I had a lot of time to <em>develop</em> it. It helped me decide what I want to do in the field of computer science. As while going through design after design for this portfolio, and designs for different projects, I grew frustrated with designing. 
+       		<br><br>
+       		I was inspired by <a href="http://motherfuckingwebsite.com">Motherfucking Website</a> and later on <a href="http://bettermotherfuckingwebsite.com">Better Motherfucking Website</a> for the <em>'design'</em>, even though its almost solely plain HTML. 
+
+        <h2><strong>Projects i've worked on</strong></h2>
+        	For most projects I work on I try to do more backend work, so its hard to showcase this code on this webpage. For most projects i'll provide the source code and a link to the github page
+        <br><br><hr><br>
+			Open source code on <a href="https://github.com/daanneek/daanneek.github.io">GitHub</a>.<br>
+			My <a href="CV.PDF">Cirriculum Vitae</a>.<br>
+			My <a href="https://www.linkedin.com/in/daan-nekeman-01955b188/">LinkedIn</a>.<br><br>
+Copyright &copy; 2020 by Daan Nekeman. All rights reserved.
+
+
+        </footer>
+    </body>
 </html>
