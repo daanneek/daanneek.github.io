@@ -131,21 +131,10 @@
         }
       }
 
-      /* Full screen button */
-      #fullscreenButton {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        width: auto;
-        padding: 5px 10px;
-        font-size: 0.8em;
-        margin: 0;
-      }
+      /* Removed fullscreen button styles */
     </style>
   </head>
   <body>
-    <button id="fullscreenButton">Fullscreen</button>
-
     <div class="container">
       <h1>Huidige pot</h1>
 
@@ -157,12 +146,6 @@
         <div class="info-item">
           Decrement: <span id="decrementValue">0.0</span>/sec
         </div>
-      </div>
-
-      <div style="display: flex; gap: 10px; margin-top: 15px">
-        <button id="startButton">Start</button>
-        <button id="stopButton" disabled>Stop</button>
-        <button id="resetButton">Reset</button>
       </div>
 
       <div class="terminal-output">
@@ -211,13 +194,9 @@
         // Get DOM elements
         const startValueSpan = document.getElementById("startValue");
         const decrementValueSpan = document.getElementById("decrementValue");
-        const startButton = document.getElementById("startButton");
-        const stopButton = document.getElementById("stopButton");
-        const resetButton = document.getElementById("resetButton");
         const display = document.getElementById("display");
         const status = document.getElementById("status");
         const terminalOutput = document.querySelector(".terminal-output");
-        const fullscreenButton = document.getElementById("fullscreenButton");
 
         // Display initial values
         startValueSpan.textContent = startNumber.toFixed(1);
@@ -291,9 +270,7 @@
             )} with increment of ${increment.toFixed(1)}`
           );
 
-          // Enable/disable buttons
-          startButton.disabled = true;
-          stopButton.disabled = false;
+          // No buttons to enable/disable anymore
 
           // Update status
           status.textContent = "RUNNING";
@@ -320,9 +297,7 @@
               status.textContent = "STOPPED";
             }
 
-            // Reset buttons
-            startButton.disabled = false;
-            stopButton.disabled = true;
+            // No buttons to reset
           }
         }
 
@@ -357,13 +332,7 @@
           }
         }
 
-        // Event listeners
-        startButton.addEventListener("click", startCountdown);
-        stopButton.addEventListener("click", function () {
-          stopCountdown(false);
-        });
-        resetButton.addEventListener("click", resetCountdown);
-        fullscreenButton.addEventListener("click", toggleFullscreen);
+        // No button event listeners needed anymore
 
         // Check if parameters exist
         if (!params.start || !params.increment) {
@@ -377,20 +346,16 @@
           );
         }
 
-        // Add keyboard shortcuts
+        // Add keyboard shortcuts - keeping only spacebar for play/pause
         window.addEventListener("keydown", function (e) {
           if (e.key === " ") {
             // Spacebar
-            if (startButton.disabled) {
+            if (animationId !== null) {
               stopCountdown(false);
             } else {
               startCountdown();
             }
             e.preventDefault(); // Prevent page scrolling
-          } else if (e.key === "r") {
-            resetCountdown();
-          } else if (e.key === "f") {
-            toggleFullscreen();
           } else if (e.key === "Escape") {
             window.location.href = "countdown-config.html";
           }
