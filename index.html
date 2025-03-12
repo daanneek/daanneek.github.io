@@ -120,27 +120,15 @@
         font-size: 0.8em;
         margin: 0;
       }
-
-      /* Back button */
-      #backButton {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        width: auto;
-        padding: 5px 10px;
-        font-size: 0.8em;
-        margin: 0;
-      }
     </style>
   </head>
   <body>
     <button id="fullscreenButton">Fullscreen</button>
-    <button id="backButton">⬅ Back</button>
 
     <div class="container">
       <h1>COUNTDOWN</h1>
 
-      <div id="display">0.0</div>
+      <div id="display">€0.0</div>
       <div id="status">READY</div>
 
       <div class="info-panel">
@@ -199,7 +187,6 @@
         const startButton = document.getElementById("startButton");
         const stopButton = document.getElementById("stopButton");
         const resetButton = document.getElementById("resetButton");
-        const backButton = document.getElementById("backButton");
         const display = document.getElementById("display");
         const status = document.getElementById("status");
         const terminalOutput = document.querySelector(".terminal-output");
@@ -333,9 +320,6 @@
         });
         resetButton.addEventListener("click", resetCountdown);
         fullscreenButton.addEventListener("click", toggleFullscreen);
-        backButton.addEventListener("click", function () {
-          window.location.href = "countdown-config.html";
-        });
 
         // Check if parameters exist
         if (!params.start || !params.increment) {
