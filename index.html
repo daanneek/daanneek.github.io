@@ -126,9 +126,9 @@
     <button id="fullscreenButton">Fullscreen</button>
 
     <div class="container">
-      <h1>COUNTDOWN</h1>
+      <h1>Huidige pot</h1>
 
-      <div id="display">€0.0</div>
+      <div id="display">0.0</div>
       <div id="status">READY</div>
 
       <div class="info-panel">
@@ -195,7 +195,7 @@
         // Display initial values
         startValueSpan.textContent = startNumber.toFixed(1);
         decrementValueSpan.textContent = increment.toFixed(1);
-        display.textContent = startNumber.toFixed(1);
+        display.textContent = "€" + startNumber.toFixed(1);
 
         // Add terminal line function
         function addTerminalLine(text) {
@@ -293,7 +293,7 @@
 
         // Update display function
         function updateDisplay() {
-          display.textContent = currentValue.toFixed(1);
+          display.textContent = "€" + currentValue.toFixed(1);
         }
 
         // Toggle fullscreen function
@@ -323,9 +323,7 @@
 
         // Check if parameters exist
         if (!params.start || !params.increment) {
-          addTerminalLine(
-            "WARNING: No configuration parameters found. Using default values."
-          );
+          addTerminalLine("WARNING: No configuration parameters found.");
           addTerminalLine("Consider returning to the configuration page.");
         } else {
           addTerminalLine(
