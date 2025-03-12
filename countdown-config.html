@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terminal Countdown - Setup</title>
+    <style>
+      body {
+        background-color: #000;
+        color: #00ff00;
+        font-family: "Courier New", monospace;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 600px;
+        background-color: #0a0a0a;
+        border: 1px solid #00ff00;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+      }
+
+      h1 {
+        text-align: center;
+        text-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+        margin-top: 0;
+      }
+
+      .input-group {
+        margin-bottom: 15px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input {
+        width: 100%;
+        padding: 8px;
+        background-color: #000;
+        color: #00ff00;
+        border: 1px solid #00ff00;
+        border-radius: 3px;
+        font-family: "Courier New", monospace;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #000;
+        color: #00ff00;
+        border: 1px solid #00ff00;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: "Courier New", monospace;
+        transition: all 0.3s;
+        margin-bottom: 15px;
+      }
+
+      button:hover {
+        background-color: #003300;
+        box-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+      }
+
+      .terminal-line {
+        margin: 5px 0;
+        height: 20px;
+      }
+
+      .terminal-output {
+        height: 120px;
+        overflow-y: auto;
+        border: 1px solid #00ff00;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #000;
+      }
+
+      /* Blinking cursor effect */
+      .cursor::after {
+        content: "_";
+        animation: blink 1s step-end infinite;
+      }
+
+      @keyframes blink {
+        from,
+        to {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TERMINAL COUNTDOWN</h1>
+      <h2 style="text-align: center; margin-top: -10px">CONFIGURATION</h2>
+
+      <div class="input-group">
+        <label for="startNumber">Starting Number:</label>
+        <input type="number" id="startNumber" min="0.1" step="0.1" value="10" />
+      </div>
+
+      <div class="input-group">
+        <label for="increment">Increment (per second):</label>
+        <input type="number" id="increment" min="0.1" step="0.1" value="1" />
+      </div>
+
+      <button id="startButton">Launch Countdown</button>
+
+      <div class="terminal-output">
+        <div class="terminal-line">> Terminal ready</div>
+        <div class="terminal-line">> Configure countdown parameters</div>
+        <div class="terminal-line cursor">></div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Add terminal line function
+        function addTerminalLine(text) {
+          const terminalOutput = document.querySelector(".terminal-output");
+          const line = document.createElement("div");
+          line.className = "terminal-line";
+          line.textContent = "> " + text;
+
+          // Remove cursor from previous line
+          const cursorLine = document.querySelector(".cursor");
+          if (cursorLine) {
+            cursorLine.classList.remove("cursor");
+          }
+
+          // Add new line
+          terminalOutput.appendChild(line);
+
+          // Add new cursor line
+          const newCursorLine = document.createElement("div");
+          newCursorLine.className = "terminal-line cursor";
+          newCursorLine.textContent = ">";
+          terminalOutput.appendChild(newCursorLine);
+
+          // Scroll to bottom
+          terminalOutput.scrollTop = terminalOutput.scrollHeight;
+        }
+
+        // Start button handler
+        document
+          .getElementById("startButton")
+          .addEventListener("click", function () {
+            const startNumber = parseFloat(
+              document.getElementById("startNumber").value
+            );
+            const increment = parseFloat(
+              document.getElementById("increment").value
+            );
+
+            if (isNaN(startNumber) || startNumber <= 0) {
+              addTerminalLine(
+                "ERROR: Starting number must be greater than zero."
+              );
+              return;
+            }
+
+            if (isNaN(increment) || increment <= 0) {
+              addTerminalLine("ERROR: Increment must be greater than zero.");
+              return;
+            }
+
+            // Create URL with parameters instead of using localStorage
+            const url =
+              "countdown-display.html?start=" +
+              startNumber +
+              "&increment=" +
+              increment;
+
+            addTerminalLine(
+              "Configuration saved. Launching countdown display..."
+            );
+
+            // Redirect to countdown page after a short delay
+            setTimeout(function () {
+              window.location.href = url;
+            }, 1500);
+          });
+      });
+    </script>
+  </body>
+</html>
