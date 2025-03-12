@@ -80,6 +80,27 @@
         padding: 10px;
         margin-top: 20px;
         background-color: #000;
+        scrollbar-width: thin;
+        scrollbar-color: #00ff00 #000;
+      }
+
+      /* Webkit browsers (Chrome, Safari, newer versions of Opera) */
+      .terminal-output::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      .terminal-output::-webkit-scrollbar-track {
+        background: #000;
+      }
+
+      .terminal-output::-webkit-scrollbar-thumb {
+        background-color: #00ff00;
+        border-radius: 4px;
+        border: 2px solid #000;
+      }
+
+      .terminal-output::-webkit-scrollbar-thumb:hover {
+        background-color: #00cc00;
       }
 
       .info-panel {
@@ -167,6 +188,10 @@
         let startNumber = 10.0;
         let increment = 1.0;
 
+        // Animation settings
+        const FPS = 30; // Update 30 times per second for smooth animation
+        const INTERVAL_MS = 1000 / FPS;
+
         // Parse URL parameters
         const params = getUrlParams();
         if (params.start && !isNaN(parseFloat(params.start))) {
@@ -178,8 +203,10 @@
         }
 
         // Initialize variables
-        let countdownInterval = null;
+        let animationId = null;
         let currentValue = startNumber;
+        let lastUpdateTime = 0;
+        let incrementPerMs = increment / 1000; // Convert per second to per millisecond
 
         // Get DOM elements
         const startValueSpan = document.getElementById("startValue");
@@ -222,10 +249,33 @@
           terminalOutput.scrollTop = terminalOutput.scrollHeight;
         }
 
+        // Animation frame function for smooth countdown
+        function updateCountdown(timestamp) {
+          if (!lastUpdateTime) {
+            lastUpdateTime = timestamp;
+          }
+
+          const elapsed = timestamp - lastUpdateTime;
+          lastUpdateTime = timestamp;
+
+          // Calculate decrement for this frame
+          const decrementAmount = incrementPerMs * elapsed;
+          currentValue -= decrementAmount;
+
+          if (currentValue <= 0) {
+            currentValue = 0;
+            updateDisplay();
+            stopCountdown(true);
+          } else {
+            updateDisplay();
+            animationId = requestAnimationFrame(updateCountdown);
+          }
+        }
+
         // Start countdown function
         function startCountdown() {
           // Already running check
-          if (countdownInterval !== null) {
+          if (animationId !== null) {
             return;
           }
 
@@ -248,25 +298,19 @@
           // Update status
           status.textContent = "RUNNING";
 
-          // Start the interval
-          countdownInterval = setInterval(function () {
-            currentValue -= increment;
+          // Reset timing variables
+          lastUpdateTime = 0;
 
-            if (currentValue <= 0) {
-              currentValue = 0;
-              updateDisplay();
-              stopCountdown(true);
-            } else {
-              updateDisplay();
-            }
-          }, 1000);
+          // Start the animation
+          animationId = requestAnimationFrame(updateCountdown);
         }
 
         // Stop countdown function
         function stopCountdown(completed) {
-          if (countdownInterval !== null) {
-            clearInterval(countdownInterval);
-            countdownInterval = null;
+          if (animationId !== null) {
+            cancelAnimationFrame(animationId);
+            animationId = null;
+            lastUpdateTime = 0;
 
             if (completed) {
               addTerminalLine("Countdown complete!");
