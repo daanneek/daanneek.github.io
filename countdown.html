@@ -17,26 +17,28 @@
         overflow: hidden;
       }
       .container {
-        width: 90%;
-        max-width: 800px;
+        width: 95%;
+        max-width: 900px;
         text-align: center;
       }
       .timer {
-        font-size: 7rem;
+        font-size: 10rem; /* Increased from 7rem */
         font-weight: bold;
         margin: 20px 0;
-        text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+        text-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+        transition: opacity 0.5s ease, transform 0.5s ease;
       }
       .offer {
-        font-size: 4rem;
+        font-size: 6rem; /* Increased from 4rem */
         margin: 40px 0;
-        text-shadow: 0 0 8px rgba(0, 255, 0, 0.7);
+        text-shadow: 0 0 12px rgba(0, 255, 0, 0.7);
+        transition: opacity 0.5s ease, transform 0.5s ease;
       }
       .instructions {
         position: fixed;
-        bottom: 20px;
-        font-size: 1.2rem;
-        opacity: 0.6;
+        bottom: 15px;
+        font-size: 0.9rem; /* Decreased from 1.2rem */
+        opacity: 0.5;
         width: 100%;
         text-align: center;
         left: 0;
@@ -46,15 +48,24 @@
         line-height: 1.5;
         display: none;
         text-shadow: 0 0 8px rgba(0, 255, 0, 0.7);
+        transition: opacity 0.5s ease;
+      }
+      .fade-in {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      .fade-in.active {
+        opacity: 1;
+        transform: translateY(0);
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div id="timerDisplay" class="timer">01:00</div>
+      <div id="timerDisplay" class="timer fade-in active">01:00</div>
 
       <div id="offerContainer">
-        <div id="currentOffer" class="offer">+250 euro</div>
+        <div id="currentOffer" class="offer fade-in active">+250 euro</div>
       </div>
 
       <div id="finalMessage" class="final-message">
@@ -94,30 +105,45 @@
       let currentOfferIndex = 0;
       let isRunning = false;
 
-      // Update the display
+      // Update the display with animation
       function updateDisplay() {
-        // Update timer
-        const mins = Math.floor(seconds / 60);
-        const secs = seconds % 60;
-        timerDisplay.textContent = `${mins.toString().padStart(2, "0")}:${secs
-          .toString()
-          .padStart(2, "0")}`;
+        // Prepare fade out animation
+        timerDisplay.classList.remove("active");
+        currentOffer.classList.remove("active");
 
-        // Update offer
-        currentOffer.textContent = offers[currentOfferIndex];
+        setTimeout(
+          () => {
+            // Update timer
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            timerDisplay.textContent = `${mins
+              .toString()
+              .padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
 
-        // Check if all offers completed
-        if (currentOfferIndex >= offers.length) {
-          offerContainer.style.display = "none";
-          timerDisplay.style.display = "none";
-          finalMessage.style.display = "block";
-          isRunning = false;
-          clearInterval(timerInterval);
-        } else {
-          offerContainer.style.display = "block";
-          timerDisplay.style.display = "block";
-          finalMessage.style.display = "none";
-        }
+            // Update offer
+            currentOffer.textContent = offers[currentOfferIndex];
+
+            // Check if all offers completed
+            if (currentOfferIndex >= offers.length) {
+              offerContainer.style.display = "none";
+              timerDisplay.style.display = "none";
+              finalMessage.style.display = "block";
+              isRunning = false;
+              clearInterval(timerInterval);
+            } else {
+              offerContainer.style.display = "block";
+              timerDisplay.style.display = "block";
+              finalMessage.style.display = "none";
+
+              // Fade in animation
+              setTimeout(() => {
+                timerDisplay.classList.add("active");
+                currentOffer.classList.add("active");
+              }, 50);
+            }
+          },
+          currentOfferIndex > 0 ? 400 : 0
+        ); // Skip animation on initial load
       }
 
       // Start or pause the timer
@@ -141,9 +167,17 @@
                 updateDisplay();
                 return;
               }
-            }
 
-            updateDisplay();
+              // Update with animation for new offer
+              updateDisplay();
+            } else {
+              // Just update the timer without full animation
+              const mins = Math.floor(seconds / 60);
+              const secs = seconds % 60;
+              timerDisplay.textContent = `${mins
+                .toString()
+                .padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
+            }
           }, 1000);
         }
 
