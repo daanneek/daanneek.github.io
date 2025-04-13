@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Console Timer met Aanbiedingen</title>
+    <style>
+      body {
+        font-family: "Courier New", monospace;
+        background-color: #000000;
+        color: #00ff00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        overflow: hidden;
+      }
+      .container {
+        width: 90%;
+        max-width: 800px;
+        text-align: center;
+      }
+      .timer {
+        font-size: 7rem;
+        font-weight: bold;
+        margin: 20px 0;
+        text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+      }
+      .offer {
+        font-size: 4rem;
+        margin: 40px 0;
+        text-shadow: 0 0 8px rgba(0, 255, 0, 0.7);
+      }
+      .instructions {
+        position: fixed;
+        bottom: 20px;
+        font-size: 1.2rem;
+        opacity: 0.6;
+        width: 100%;
+        text-align: center;
+        left: 0;
+      }
+      .final-message {
+        font-size: 2.5rem;
+        line-height: 1.5;
+        display: none;
+        text-shadow: 0 0 8px rgba(0, 255, 0, 0.7);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="timerDisplay" class="timer">01:00</div>
+
+      <div id="offerContainer">
+        <div id="currentOffer" class="offer">+250 euro</div>
+      </div>
+
+      <div id="finalMessage" class="final-message">
+        Alle aanbiedingen zijn voorbij<br />
+        Elke kandidaat die nog zit kost de pot 200 euro
+      </div>
+
+      <div class="instructions">
+        Druk [SPATIE] om te starten/pauzeren | Vernieuw pagina om te resetten
+      </div>
+    </div>
+
+    <script>
+      // Array of offers
+      const offers = [
+        "+250 euro",
+        "+75 euro",
+        "+150 euro",
+        "0 euro",
+        "-50 euro",
+        "-150 euro",
+        "-200 euro",
+        "+50 euro",
+        "+100 euro",
+        "+75 euro",
+      ];
+
+      // DOM elements
+      const timerDisplay = document.getElementById("timerDisplay");
+      const currentOffer = document.getElementById("currentOffer");
+      const offerContainer = document.getElementById("offerContainer");
+      const finalMessage = document.getElementById("finalMessage");
+
+      // Timer variables
+      let seconds = 60;
+      let timerInterval = null;
+      let currentOfferIndex = 0;
+      let isRunning = false;
+
+      // Update the display
+      function updateDisplay() {
+        // Update timer
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        timerDisplay.textContent = `${mins.toString().padStart(2, "0")}:${secs
+          .toString()
+          .padStart(2, "0")}`;
+
+        // Update offer
+        currentOffer.textContent = offers[currentOfferIndex];
+
+        // Check if all offers completed
+        if (currentOfferIndex >= offers.length) {
+          offerContainer.style.display = "none";
+          timerDisplay.style.display = "none";
+          finalMessage.style.display = "block";
+          isRunning = false;
+          clearInterval(timerInterval);
+        } else {
+          offerContainer.style.display = "block";
+          timerDisplay.style.display = "block";
+          finalMessage.style.display = "none";
+        }
+      }
+
+      // Start or pause the timer
+      function toggleTimer() {
+        if (isRunning) {
+          // Pause timer
+          clearInterval(timerInterval);
+        } else {
+          // Start timer
+          timerInterval = setInterval(function () {
+            seconds--;
+
+            if (seconds <= 0) {
+              // Move to next offer when time is up
+              currentOfferIndex++;
+              seconds = 60;
+
+              // Check if we've gone through all offers
+              if (currentOfferIndex >= offers.length) {
+                clearInterval(timerInterval);
+                updateDisplay();
+                return;
+              }
+            }
+
+            updateDisplay();
+          }, 1000);
+        }
+
+        isRunning = !isRunning;
+      }
+
+      // Space bar event listener
+      document.addEventListener("keydown", function (event) {
+        // Check if space bar was pressed
+        if (event.code === "Space" || event.keyCode === 32) {
+          event.preventDefault(); // Prevent page scrolling
+          toggleTimer();
+        }
+      });
+
+      // Initialize display
+      updateDisplay();
+    </script>
+  </body>
+</html>
