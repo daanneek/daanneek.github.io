@@ -28,6 +28,25 @@
         border-radius: 5px;
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        display: none; /* Hide countdown initially */
+      }
+
+      .console-screen {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 100%;
+        height: 100vh;
+      }
+
+      .console-prompt {
+        font-size: 1.5em;
+      }
+
+      /* Blinking cursor effect */
+      .cursor::after {
+        content: "_";
+        animation: blink 1s step-end infinite;
       }
 
       h1 {
@@ -115,12 +134,6 @@
         font-size: 0.9em;
       }
 
-      /* Blinking cursor effect */
-      .cursor::after {
-        content: "_";
-        animation: blink 1s step-end infinite;
-      }
-
       @keyframes blink {
         from,
         to {
@@ -130,12 +143,16 @@
           opacity: 0;
         }
       }
-
-      /* Removed fullscreen button styles */
     </style>
   </head>
   <body>
-    <div class="container">
+    <!-- Initial console screen -->
+    <div class="console-screen" id="initialConsole">
+      <div class="console-prompt cursor">></div>
+    </div>
+
+    <!-- Countdown container (hidden initially) -->
+    <div class="container" id="countdownContainer">
       <h1>Huidige pot</h1>
 
       <div id="display">0.0</div>
@@ -151,12 +168,23 @@
       <div class="terminal-output">
         <div class="terminal-line">> Terminal ready</div>
         <div class="terminal-line">> Countdown loaded</div>
+        <div class="terminal-line">> Press SPACE to pause/resume</div>
         <div class="terminal-line cursor">></div>
       </div>
     </div>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
+        // Get DOM elements
+        const initialConsole = document.getElementById("initialConsole");
+        const countdownContainer =
+          document.getElementById("countdownContainer");
+        const startValueSpan = document.getElementById("startValue");
+        const decrementValueSpan = document.getElementById("decrementValue");
+        const display = document.getElementById("display");
+        const status = document.getElementById("status");
+        const terminalOutput = document.querySelector(".terminal-output");
+
         // Get URL parameters
         function getUrlParams() {
           const params = {};
@@ -190,15 +218,9 @@
         let currentValue = startNumber;
         let lastUpdateTime = 0;
         let incrementPerMs = increment / 1000; // Convert per second to per millisecond
+        let countdownActivated = false;
 
-        // Get DOM elements
-        const startValueSpan = document.getElementById("startValue");
-        const decrementValueSpan = document.getElementById("decrementValue");
-        const display = document.getElementById("display");
-        const status = document.getElementById("status");
-        const terminalOutput = document.querySelector(".terminal-output");
-
-        // Display initial values
+        // Display initial values (will be hidden until spacebar is pressed)
         startValueSpan.textContent = startNumber.toFixed(1);
         decrementValueSpan.textContent = increment.toFixed(1);
         display.textContent = "€" + startNumber.toFixed(1);
@@ -210,7 +232,7 @@
           line.textContent = "> " + text;
 
           // Remove cursor from previous line
-          const cursorLine = document.querySelector(".cursor");
+          const cursorLine = document.querySelector(".terminal-output .cursor");
           if (cursorLine) {
             cursorLine.classList.remove("cursor");
           }
@@ -251,6 +273,23 @@
           }
         }
 
+        // Show the countdown and start it
+        function activateCountdown() {
+          if (countdownActivated) return;
+
+          countdownActivated = true;
+          initialConsole.style.display = "none";
+          countdownContainer.style.display = "block";
+
+          // Prepare for countdown
+          currentValue = startNumber;
+          updateDisplay();
+          addTerminalLine("System initialized");
+
+          // Start countdown immediately
+          startCountdown();
+        }
+
         // Start countdown function
         function startCountdown() {
           // Already running check
@@ -269,8 +308,6 @@
               1
             )} with increment of ${increment.toFixed(1)}`
           );
-
-          // No buttons to enable/disable anymore
 
           // Update status
           status.textContent = "RUNNING";
@@ -296,18 +333,7 @@
               addTerminalLine("Countdown stopped manually.");
               status.textContent = "STOPPED";
             }
-
-            // No buttons to reset
           }
-        }
-
-        // Reset countdown function
-        function resetCountdown() {
-          stopCountdown(false);
-          currentValue = startNumber;
-          updateDisplay();
-          addTerminalLine("Countdown reset.");
-          status.textContent = "READY";
         }
 
         // Update display function
@@ -315,47 +341,23 @@
           display.textContent = "€" + currentValue.toFixed(1);
         }
 
-        // Toggle fullscreen function
-        function toggleFullscreen() {
-          if (!document.fullscreenElement) {
-            document.documentElement.requestFullscreen().catch(function (err) {
-              addTerminalLine(
-                "Error attempting to enable fullscreen mode: " + err.message
-              );
-            });
-            fullscreenButton.textContent = "Exit Fullscreen";
-          } else {
-            if (document.exitFullscreen) {
-              document.exitFullscreen();
-              fullscreenButton.textContent = "Fullscreen";
-            }
-          }
-        }
-
-        // No button event listeners needed anymore
-
-        // Check if parameters exist
-        if (!params.start || !params.increment) {
-          addTerminalLine("WARNING: No configuration parameters found.");
-          addTerminalLine("Consider returning to the configuration page.");
-        } else {
-          addTerminalLine(
-            `Configuration loaded: Start=${startNumber.toFixed(
-              1
-            )}, Increment=${increment.toFixed(1)}`
-          );
-        }
-
-        // Add keyboard shortcuts - keeping only spacebar for play/pause
+        // Add keyboard shortcuts
         window.addEventListener("keydown", function (e) {
           if (e.key === " ") {
             // Spacebar
-            if (animationId !== null) {
-              stopCountdown(false);
-            } else {
-              startCountdown();
-            }
             e.preventDefault(); // Prevent page scrolling
+
+            if (!countdownActivated) {
+              // First press - show and start countdown
+              activateCountdown();
+            } else {
+              // Subsequent presses - toggle pause/resume
+              if (animationId !== null) {
+                stopCountdown(false);
+              } else {
+                startCountdown();
+              }
+            }
           } else if (e.key === "Escape") {
             window.location.href = "countdown-config.html";
           }
