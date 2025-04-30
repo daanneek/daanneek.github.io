@@ -87,41 +87,6 @@
         font-size: 1.2em;
       }
 
-      .terminal-line {
-        margin: 5px 0;
-        height: 20px;
-      }
-
-      .terminal-output {
-        height: 120px;
-        overflow-y: auto;
-        border: 1px solid #00ff00;
-        padding: 10px;
-        margin-top: 20px;
-        background-color: #000;
-        scrollbar-width: thin;
-        scrollbar-color: #00ff00 #000;
-      }
-
-      /* Webkit browsers (Chrome, Safari, newer versions of Opera) */
-      .terminal-output::-webkit-scrollbar {
-        width: 8px;
-      }
-
-      .terminal-output::-webkit-scrollbar-track {
-        background: #000;
-      }
-
-      .terminal-output::-webkit-scrollbar-thumb {
-        background-color: #00ff00;
-        border-radius: 4px;
-        border: 2px solid #000;
-      }
-
-      .terminal-output::-webkit-scrollbar-thumb:hover {
-        background-color: #00cc00;
-      }
-
       .info-panel {
         display: flex;
         justify-content: space-between;
@@ -164,13 +129,6 @@
           Decrement: <span id="decrementValue">0.0</span>/sec
         </div>
       </div>
-
-      <div class="terminal-output">
-        <div class="terminal-line">> Terminal ready</div>
-        <div class="terminal-line">> Countdown loaded</div>
-        <div class="terminal-line">> Press SPACE to pause/resume</div>
-        <div class="terminal-line cursor">></div>
-      </div>
     </div>
 
     <script>
@@ -183,7 +141,6 @@
         const decrementValueSpan = document.getElementById("decrementValue");
         const display = document.getElementById("display");
         const status = document.getElementById("status");
-        const terminalOutput = document.querySelector(".terminal-output");
 
         // Get URL parameters
         function getUrlParams() {
@@ -225,31 +182,6 @@
         decrementValueSpan.textContent = increment.toFixed(1);
         display.textContent = "€" + startNumber.toFixed(1);
 
-        // Add terminal line function
-        function addTerminalLine(text) {
-          const line = document.createElement("div");
-          line.className = "terminal-line";
-          line.textContent = "> " + text;
-
-          // Remove cursor from previous line
-          const cursorLine = document.querySelector(".terminal-output .cursor");
-          if (cursorLine) {
-            cursorLine.classList.remove("cursor");
-          }
-
-          // Add new line
-          terminalOutput.appendChild(line);
-
-          // Add new cursor line
-          const newCursorLine = document.createElement("div");
-          newCursorLine.className = "terminal-line cursor";
-          newCursorLine.textContent = ">";
-          terminalOutput.appendChild(newCursorLine);
-
-          // Scroll to bottom
-          terminalOutput.scrollTop = terminalOutput.scrollHeight;
-        }
-
         // Animation frame function for smooth countdown
         function updateCountdown(timestamp) {
           if (!lastUpdateTime) {
@@ -284,7 +216,6 @@
           // Prepare for countdown
           currentValue = startNumber;
           updateDisplay();
-          addTerminalLine("System initialized");
 
           // Start countdown immediately
           startCountdown();
@@ -302,12 +233,6 @@
             currentValue = startNumber;
             updateDisplay();
           }
-
-          addTerminalLine(
-            `Starting countdown from ${currentValue.toFixed(
-              1
-            )} with increment of ${increment.toFixed(1)}`
-          );
 
           // Update status
           status.textContent = "RUNNING";
@@ -327,10 +252,8 @@
             lastUpdateTime = 0;
 
             if (completed) {
-              addTerminalLine("Countdown complete!");
               status.textContent = "COMPLETE";
             } else {
-              addTerminalLine("Countdown stopped manually.");
               status.textContent = "STOPPED";
             }
           }
