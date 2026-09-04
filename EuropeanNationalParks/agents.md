@@ -1,8 +1,8 @@
-# Green Atlas Agent Notes
+# Greenbound Agent Notes
 
 ## Project
 
-Green Atlas is a single-page React/Vite app for exploring European national parks. The main experience is a filterable Leaflet map with clustered park markers, a synced results list, and a selected-park detail card. The UI wordmark is `Green Atlas`; earlier notes called the project WILDatlas.
+Greenbound is a single-page React/Vite app for exploring European national parks. The main experience is a filterable Leaflet map with clustered park markers, a synced results list, and a selected-park detail card. The UI wordmark is `Greenbound`; earlier notes called the project WILDatlas.
 
 ## Run and validate
 
@@ -51,7 +51,7 @@ Implemented:
 - Scrollable results list in the sidebar below the legend. Clicking an entry selects the park and flies the map to it; selecting a park on the map scrolls the matching entry into view. Only the list scrolls, never the page: `.app-shell` and `.sidebar` stay `overflow: hidden` on desktop and `.results-list` takes the remaining height.
 - Selected park card with status, location and coordinates.
 - Mobile layout (`max-width: 760px`): full-height map, filters in an off-canvas left drawer opened by a `.mobile-filters-toggle` button that floats over the top-left of the map, and the park card as a collapsible bottom sheet. All mobile chrome (`.mobile-filters-toggle`, `.sidebar-close`, `.card-handle`, `.mobile-backdrop`) is `display: none` on desktop, so desktop styling must stay untouched when editing it.
-- There is no page header. The `Green Atlas` wordmark lives alone in `.sidebar-heading`, and the live park count is folded into the search label as `Search {n} places`.
+- There is no page header. The `Greenbound` wordmark lives alone in `.sidebar-heading`, and the live park count is folded into the search label as `Search {n} places`.
 
 Known limitations:
 

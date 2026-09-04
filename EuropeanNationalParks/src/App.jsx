@@ -238,20 +238,21 @@ function SearchableSelect({
 
 const clusterIconCache = new Map();
 
-const getClusterIcon = (count) => {
-  if (!clusterIconCache.has(count)) {
+const getClusterIcon = (count, variant) => {
+  const key = `${variant}:${count}`;
+  if (!clusterIconCache.has(key)) {
     const size = count < 10 ? 34 : count < 50 ? 42 : 50;
     clusterIconCache.set(
-      count,
+      key,
       L.divIcon({
-        className: "park-cluster",
+        className: `park-cluster park-cluster--${variant}`,
         html: `<span class="park-cluster__bubble">${count}</span>`,
         iconSize: [size, size],
         iconAnchor: [size / 2, size / 2],
       }),
     );
   }
-  return clusterIconCache.get(count);
+  return clusterIconCache.get(key);
 };
 
 function MapZoomButtons() {
@@ -329,37 +330,45 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
 
   // Supercluster indexes the points in a KD-tree once per filter change, so
   // recomputing clusters on pan/zoom stays cheap.
-  const index = useMemo(() => {
-    const supercluster = new Supercluster({
-      radius: 78,
-      maxZoom: 10,
-      minPoints: 2,
+  const indexes = useMemo(() => {
+    return ["open", "caution"].map((variant) => {
+      const supercluster = new Supercluster({
+        radius: 78,
+        maxZoom: 10,
+        minPoints: 2,
+      });
+      supercluster.load(
+        visibleParks
+          .filter((park) =>
+            variant === "caution" ? isCountryAtWar(park) : !isCountryAtWar(park),
+          )
+          .map((park) => ({
+            type: "Feature",
+            properties: { parkId: park.id },
+            geometry: {
+              type: "Point",
+              coordinates: [park.longitude, park.latitude],
+            },
+          })),
+      );
+      return { index: supercluster, variant };
     });
-    supercluster.load(
-      visibleParks.map((park) => ({
-        type: "Feature",
-        properties: { parkId: park.id },
-        geometry: {
-          type: "Point",
-          coordinates: [park.longitude, park.latitude],
-        },
-      })),
-    );
-    return supercluster;
   }, [visibleParks]);
 
   useEffect(() => {
     const updateClusters = () => {
       const bounds = map.getBounds();
+      const clusterBounds = [
+        bounds.getWest(),
+        bounds.getSouth(),
+        bounds.getEast(),
+        bounds.getNorth(),
+      ];
       setClusters(
-        index.getClusters(
-          [
-            bounds.getWest(),
-            bounds.getSouth(),
-            bounds.getEast(),
-            bounds.getNorth(),
-          ],
-          Math.round(map.getZoom()),
+        indexes.flatMap(({ index, variant }) =>
+          index
+            .getClusters(clusterBounds, Math.round(map.getZoom()))
+            .map((feature) => ({ feature, index, variant })),
         ),
       );
     };
@@ -371,18 +380,18 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
       map.off("moveend", updateClusters);
       map.off("zoomend", updateClusters);
     };
-  }, [index, map]);
+  }, [indexes, map]);
 
-  return clusters.map((feature) => {
+  return clusters.map(({ feature, index, variant }) => {
     const [longitude, latitude] = feature.geometry.coordinates;
 
     if (feature.properties.cluster) {
       const clusterId = feature.properties.cluster_id;
       return (
         <Marker
-          key={`cluster-${clusterId}`}
+          key={`cluster-${variant}-${clusterId}`}
           position={[latitude, longitude]}
-          icon={getClusterIcon(feature.properties.point_count)}
+          icon={getClusterIcon(feature.properties.point_count, variant)}
           eventHandlers={{
             click: () =>
               map.flyTo(
@@ -475,6 +484,12 @@ function App() {
     );
   };
 
+  const resetFilters = () => {
+    setSearchTerm("");
+    setCountry("All countries");
+    setExcludeWar(false);
+  };
+
   return (
     <main className="app-shell">
       <section className={`workspace ${filtersOpen ? "filters-open" : ""}`}>
@@ -492,8 +507,8 @@ function App() {
             ✕
           </button>
           <div className="sidebar-heading">
-            <a className="wordmark" href="/" aria-label="Green Atlas home">
-              <span>✳</span> Green Atlas
+            <a className="wordmark" href="/" aria-label="Greenbound home">
+              <span>✳</span> Greenbound
             </a>
           </div>
           <label className="search-label">
@@ -514,11 +529,19 @@ function App() {
           <div className="filter-block">
             <p className="filter-title">Quick filters</p>
             <button
+              type="button"
               className={`filter-chip ${excludeWar ? "selected" : ""}`}
               onClick={() => setExcludeWar(!excludeWar)}
             >
               <span>◌</span> Exclude countries at war{" "}
               <b>{excludeWar ? "ON" : "OFF"}</b>
+            </button>
+            <button
+              type="button"
+              className="reset-filters"
+              onClick={resetFilters}
+            >
+              Reset filters
             </button>
           </div>
           <div className="legend">

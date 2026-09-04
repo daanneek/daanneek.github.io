@@ -1,4 +1,4 @@
-# Green Atlas
+# Greenbound
 
 A single-page React + Vite app for exploring European national parks on an interactive Leaflet map.
 

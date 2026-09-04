@@ -302,6 +302,25 @@ input::placeholder {
   border-color: var(--orange);
   background: #f9e9df;
 }
+.reset-filters {
+  width: 100%;
+  margin-top: 9px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  font:
+    10px "DM Mono",
+    monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.reset-filters:hover,
+.reset-filters:focus-visible {
+  border-color: var(--green);
+  color: var(--green);
+  outline: none;
+}
 .legend {
   border-top: 1px solid var(--line);
   margin-top: 27px;
@@ -655,6 +674,9 @@ input::placeholder {
     12px "DM Mono",
     monospace;
   transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.park-cluster--caution .park-cluster__bubble {
+  background: var(--orange);
 }
 .park-cluster:hover .park-cluster__bubble {
   transform: scale(1.12);
