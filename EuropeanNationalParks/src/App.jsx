@@ -1,12 +1,8 @@
+import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { useEffect, useMemo, useState } from "react";
-import {
-  CircleMarker,
-  MapContainer,
-  Popup,
-  TileLayer,
-  useMap,
-} from "react-leaflet";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import Supercluster from "supercluster";
 import "./App.css";
 
 const parkDataModules = import.meta.glob("./data/national_parks/*.json", {
@@ -14,6 +10,7 @@ const parkDataModules = import.meta.glob("./data/national_parks/*.json", {
   import: "default",
 });
 const parks = Object.values(parkDataModules).flat();
+const parkById = new Map(parks.map((park) => [park.id, park]));
 const countryNames = new Intl.DisplayNames(["en"], { type: "region" });
 const countriesAtWar = new Set(["BY", "RU", "UA"]);
 
@@ -46,6 +43,217 @@ const MAP_STYLES = {
   },
 };
 
+const MARKER_PIN_SVG = `<span class="park-marker__pin"><svg viewBox="0 0 28 36" width="28" height="36" aria-hidden="true" focusable="false"><path class="park-marker__body" d="M14 34.4S25.2 21.1 25.2 13.2C25.2 7 20.2 2 14 2S2.8 7 2.8 13.2C2.8 21.1 14 34.4 14 34.4z"/><circle class="park-marker__core" cx="14" cy="13.1" r="4.3"/></svg></span>`;
+const markerIconCache = new Map();
+
+const getMarkerIcon = (variant, isSelected) => {
+  const key = `${variant}:${isSelected}`;
+  if (!markerIconCache.has(key)) {
+    markerIconCache.set(
+      key,
+      L.divIcon({
+        className: `park-marker park-marker--${variant}${isSelected ? " is-selected" : ""}`,
+        html: isSelected
+          ? `<span class="park-marker__halo"></span>${MARKER_PIN_SVG}`
+          : MARKER_PIN_SVG,
+        iconSize: [28, 36],
+        iconAnchor: [14, 34],
+        popupAnchor: [0, -30],
+      }),
+    );
+  }
+  return markerIconCache.get(key);
+};
+
+const mapStyleLabels = Object.values(MAP_STYLES).map((style) => style.label);
+const getMapStyleKey = (label) =>
+  Object.keys(MAP_STYLES).find((key) => MAP_STYLES[key].label === label);
+
+function SearchableSelect({
+  label,
+  value,
+  options,
+  onChange,
+  searchable = true,
+}) {
+  const [open, setOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const [activeIndex, setActiveIndex] = useState(0);
+  const wrapperRef = useRef(null);
+  const listRef = useRef(null);
+  const id = useId();
+
+  const matches = useMemo(() => {
+    const normalized = query.trim().toLowerCase();
+    return normalized && searchable
+      ? options.filter((option) => option.toLowerCase().includes(normalized))
+      : options;
+  }, [options, query, searchable]);
+
+  useEffect(() => {
+    if (!open) return;
+
+    const closeOnOutsideClick = (event) => {
+      if (!wrapperRef.current?.contains(event.target)) setOpen(false);
+    };
+    document.addEventListener("pointerdown", closeOnOutsideClick);
+    return () =>
+      document.removeEventListener("pointerdown", closeOnOutsideClick);
+  }, [open]);
+
+  useEffect(() => {
+    listRef.current?.children[activeIndex]?.scrollIntoView({
+      block: "nearest",
+    });
+  }, [activeIndex, matches]);
+
+  const openList = () => {
+    if (open) return;
+    setQuery("");
+    setActiveIndex(Math.max(0, options.indexOf(value)));
+    setOpen(true);
+  };
+
+  const commit = (option) => {
+    onChange(option);
+    setOpen(false);
+    setQuery("");
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+      event.preventDefault();
+      if (!open) {
+        openList();
+        return;
+      }
+      const step = event.key === "ArrowDown" ? 1 : -1;
+      setActiveIndex((index) =>
+        Math.min(Math.max(index + step, 0), matches.length - 1),
+      );
+    } else if (event.key === "Enter" && open) {
+      event.preventDefault();
+      if (matches[activeIndex]) commit(matches[activeIndex]);
+    } else if (event.key === "Escape" && open) {
+      event.preventDefault();
+      setOpen(false);
+      setQuery("");
+    }
+  };
+
+  const listbox = open && (
+    <ul
+      className="combobox-list"
+      id={`${id}-list`}
+      role="listbox"
+      ref={listRef}
+    >
+      {matches.length === 0 ? (
+        <li className="combobox-empty">No matches</li>
+      ) : (
+        matches.map((option, index) => (
+          <li
+            key={option}
+            id={`${id}-option-${index}`}
+            role="option"
+            aria-selected={option === value}
+            className={`combobox-option ${index === activeIndex ? "is-active" : ""} ${option === value ? "is-selected" : ""}`}
+            onMouseMove={() => setActiveIndex(index)}
+            onPointerDown={(event) => {
+              event.preventDefault();
+              commit(option);
+            }}
+          >
+            {option}
+          </li>
+        ))
+      )}
+    </ul>
+  );
+
+  if (!searchable) {
+    return (
+      <div className={`combobox ${open ? "is-open" : ""}`} ref={wrapperRef}>
+        <label htmlFor={`${id}-input`}>{label}</label>
+        <div className="combobox-field">
+          <button
+            id={`${id}-input`}
+            type="button"
+            className="combobox-trigger"
+            role="combobox"
+            aria-expanded={open}
+            aria-controls={`${id}-list`}
+            aria-haspopup="listbox"
+            aria-activedescendant={
+              open && matches[activeIndex]
+                ? `${id}-option-${activeIndex}`
+                : undefined
+            }
+            onClick={() => (open ? setOpen(false) : openList())}
+            onKeyDown={handleKeyDown}
+          >
+            {value}
+          </button>
+          <span className="combobox-caret" aria-hidden="true" />
+        </div>
+        {listbox}
+      </div>
+    );
+  }
+
+  return (
+    <div className={`combobox ${open ? "is-open" : ""}`} ref={wrapperRef}>
+      <label htmlFor={`${id}-input`}>{label}</label>
+      <div className="combobox-field">
+        <input
+          id={`${id}-input`}
+          type="text"
+          role="combobox"
+          autoComplete="off"
+          aria-expanded={open}
+          aria-controls={`${id}-list`}
+          aria-autocomplete="list"
+          aria-activedescendant={
+            open && matches[activeIndex]
+              ? `${id}-option-${activeIndex}`
+              : undefined
+          }
+          value={open ? query : value}
+          placeholder={open ? value : undefined}
+          onChange={(event) => {
+            setQuery(event.target.value);
+            setActiveIndex(0);
+            setOpen(true);
+          }}
+          onFocus={openList}
+          onClick={openList}
+          onKeyDown={handleKeyDown}
+        />
+        <span className="combobox-caret" aria-hidden="true" />
+      </div>
+      {listbox}
+    </div>
+  );
+}
+
+const clusterIconCache = new Map();
+
+const getClusterIcon = (count) => {
+  if (!clusterIconCache.has(count)) {
+    const size = count < 10 ? 34 : count < 50 ? 42 : 50;
+    clusterIconCache.set(
+      count,
+      L.divIcon({
+        className: "park-cluster",
+        html: `<span class="park-cluster__bubble">${count}</span>`,
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
+      }),
+    );
+  }
+  return clusterIconCache.get(count);
+};
+
 function MapZoomButtons() {
   const map = useMap();
 
@@ -68,6 +276,8 @@ function MapSizeFix() {
   useEffect(() => {
     const fitMapToEurope = () => {
       map.invalidateSize();
+      // Narrow viewports need a lower floor, otherwise Europe cannot fit horizontally.
+      map.setMinZoom(map.getContainer().clientWidth < 760 ? 3 : 4.5);
       map.fitBounds(EUROPE_BOUNDS, {
         padding: [24, 24],
         maxZoom: 4.5,
@@ -91,12 +301,117 @@ function MapStyleLayer({ mapStyle }) {
   return <TileLayer attribution={style.attribution} noWrap url={style.url} />;
 }
 
+function ParkMarkers({ visibleParks, selectedId, onSelect }) {
+  const map = useMap();
+  const [clusters, setClusters] = useState([]);
+
+  // Supercluster indexes the points in a KD-tree once per filter change, so
+  // recomputing clusters on pan/zoom stays cheap.
+  const index = useMemo(() => {
+    const supercluster = new Supercluster({
+      radius: 78,
+      maxZoom: 10,
+      minPoints: 2,
+    });
+    supercluster.load(
+      visibleParks.map((park) => ({
+        type: "Feature",
+        properties: { parkId: park.id },
+        geometry: {
+          type: "Point",
+          coordinates: [park.longitude, park.latitude],
+        },
+      })),
+    );
+    return supercluster;
+  }, [visibleParks]);
+
+  useEffect(() => {
+    const updateClusters = () => {
+      const bounds = map.getBounds();
+      setClusters(
+        index.getClusters(
+          [
+            bounds.getWest(),
+            bounds.getSouth(),
+            bounds.getEast(),
+            bounds.getNorth(),
+          ],
+          Math.round(map.getZoom()),
+        ),
+      );
+    };
+
+    updateClusters();
+    map.on("moveend", updateClusters);
+    map.on("zoomend", updateClusters);
+    return () => {
+      map.off("moveend", updateClusters);
+      map.off("zoomend", updateClusters);
+    };
+  }, [index, map]);
+
+  return clusters.map((feature) => {
+    const [longitude, latitude] = feature.geometry.coordinates;
+
+    if (feature.properties.cluster) {
+      const clusterId = feature.properties.cluster_id;
+      return (
+        <Marker
+          key={`cluster-${clusterId}`}
+          position={[latitude, longitude]}
+          icon={getClusterIcon(feature.properties.point_count)}
+          eventHandlers={{
+            click: () =>
+              map.flyTo(
+                [latitude, longitude],
+                Math.min(
+                  index.getClusterExpansionZoom(clusterId),
+                  map.getMaxZoom(),
+                ),
+                { duration: 0.6 },
+              ),
+          }}
+        />
+      );
+    }
+
+    const park = parkById.get(feature.properties.parkId);
+    const isSelected = park.id === selectedId;
+
+    return (
+      <Marker
+        key={park.id}
+        position={[park.latitude, park.longitude]}
+        title={park.name}
+        alt={park.name}
+        zIndexOffset={isSelected ? 1000 : 0}
+        icon={getMarkerIcon(
+          isCountryAtWar(park) ? "caution" : "open",
+          isSelected,
+        )}
+        eventHandlers={{ click: () => onSelect(park.id) }}
+      >
+        <Popup>
+          <strong>{park.name}</strong>
+          <br />
+          {getCountryName(park.country)}
+        </Popup>
+      </Marker>
+    );
+  });
+}
+
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [country, setCountry] = useState("All countries");
   const [excludeWar, setExcludeWar] = useState(false);
   const [selectedId, setSelectedId] = useState("triglav");
   const [mapStyle, setMapStyle] = useState("osm");
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [cardExpanded, setCardExpanded] = useState(false);
+  const mapRef = useRef(null);
+  const resultsRef = useRef(null);
 
   const visibleParks = useMemo(
     () =>
@@ -122,25 +437,45 @@ function App() {
   const selectedPark =
     visibleParks.find((park) => park.id === selectedId) ?? visibleParks[0];
 
+  useEffect(() => {
+    resultsRef.current
+      ?.querySelector(`[data-park-id="${selectedPark?.id}"]`)
+      ?.scrollIntoView({ block: "nearest" });
+  }, [selectedPark]);
+
+  const focusPark = (park) => {
+    setSelectedId(park.id);
+    setFiltersOpen(false);
+    mapRef.current?.flyTo(
+      [park.latitude, park.longitude],
+      Math.max(mapRef.current.getZoom(), 8),
+      { duration: 0.8 },
+    );
+  };
+
   return (
     <main className="app-shell">
-      <header className="topbar">
-        <a className="wordmark" href="/" aria-label="Green Atlas home">
-          <span>✳</span> Green Atlas
-        </a>
-      </header>
-      <section className="workspace">
-        <aside className="sidebar">
+      <section className={`workspace ${filtersOpen ? "filters-open" : ""}`}>
+        <div
+          className="mobile-backdrop"
+          onClick={() => setFiltersOpen(false)}
+          aria-hidden="true"
+        />
+        <aside className={`sidebar ${filtersOpen ? "is-open" : ""}`}>
+          <button
+            className="sidebar-close"
+            onClick={() => setFiltersOpen(false)}
+            aria-label="Close filters"
+          >
+            ✕
+          </button>
           <div className="sidebar-heading">
-            <div>
-              <p className="eyebrow">DISCOVER</p>
-            </div>
-            <span className="result-count">
-              {visibleParks.length.toString().padStart(2, "0")}
-            </span>
+            <a className="wordmark" href="/" aria-label="Green Atlas home">
+              <span>✳</span> Green Atlas
+            </a>
           </div>
           <label className="search-label">
-            Search places
+            Search {visibleParks.length} places
             <input
               type="search"
               value={searchTerm}
@@ -148,17 +483,12 @@ function App() {
               placeholder="Try a park or country"
             />
           </label>
-          <label className="select-label">
-            Country
-            <select
-              value={country}
-              onChange={(event) => setCountry(event.target.value)}
-            >
-              {countries.map((item) => (
-                <option key={item}>{item}</option>
-              ))}
-            </select>
-          </label>
+          <SearchableSelect
+            label="Country"
+            value={country}
+            options={countries}
+            onChange={setCountry}
+          />
           <div className="filter-block">
             <p className="filter-title">Quick filters</p>
             <button
@@ -178,26 +508,58 @@ function App() {
               <i className="legend-dot caution" /> Check before travel
             </p>
           </div>
+          <div className="results">
+            <p className="filter-title">Results</p>
+            <ul className="results-list" ref={resultsRef}>
+              {visibleParks.length === 0 ? (
+                <li className="results-empty">No parks match these filters</li>
+              ) : (
+                visibleParks.map((park) => (
+                  <li key={park.id}>
+                    <button
+                      type="button"
+                      data-park-id={park.id}
+                      className={`result-item ${selectedPark?.id === park.id ? "is-selected" : ""}`}
+                      onClick={() => focusPark(park)}
+                    >
+                      <i
+                        className={`legend-dot ${isCountryAtWar(park) ? "caution" : "open"}`}
+                      />
+                      <span className="result-item__text">
+                        <strong>{park.name}</strong>
+                        <em>{getCountryName(park.country)}</em>
+                      </span>
+                    </button>
+                  </li>
+                ))
+              )}
+            </ul>
+          </div>
         </aside>
         <div className="map-column">
           <div className="map-toolbar">
             <span>
               <strong>{visibleParks.length}</strong> parks in view
             </span>
-            <label className="map-style-control">
-              Map style
-              <select
-                aria-label="Map style"
-                value={mapStyle}
-                onChange={(event) => setMapStyle(event.target.value)}
-              >
-                <option value="osm">OpenStreetMap</option>
-                <option value="opentopo">OpenTopoMap</option>
-              </select>
-            </label>
+            <div className="map-style-control">
+              <SearchableSelect
+                label="Map style"
+                searchable={false}
+                value={MAP_STYLES[mapStyle].label}
+                options={mapStyleLabels}
+                onChange={(label) => setMapStyle(getMapStyleKey(label))}
+              />
+            </div>
           </div>
           <div className="map-body">
             <div className="map-stage">
+              <button
+                className="mobile-filters-toggle"
+                onClick={() => setFiltersOpen(true)}
+                aria-expanded={filtersOpen}
+              >
+                ☰ Filters
+              </button>
               <MapContainer
                 center={[54, 15]}
                 zoom={4.5}
@@ -206,41 +568,35 @@ function App() {
                 maxBounds={EUROPE_BOUNDS}
                 maxBoundsViscosity={1}
                 worldCopyJump={false}
+                zoomSnap={0.25}
                 scrollWheelZoom
                 className="leaflet-map"
+                ref={mapRef}
               >
                 <MapSizeFix />
                 <MapZoomButtons />
                 <MapStyleLayer mapStyle={mapStyle} />
-                {visibleParks.map((park) => (
-                  <CircleMarker
-                    key={park.id}
-                    center={[park.latitude, park.longitude]}
-                    pathOptions={{
-                      color:
-                        selectedPark?.id === park.id
-                          ? "#17231d"
-                          : isCountryAtWar(park)
-                            ? "#dc754b"
-                            : "#2e6d52",
-                      fillColor: isCountryAtWar(park) ? "#dc754b" : "#2e6d52",
-                      fillOpacity: 1,
-                      weight: selectedPark?.id === park.id ? 4 : 2,
-                    }}
-                    radius={selectedPark?.id === park.id ? 9 : 6}
-                    eventHandlers={{ click: () => setSelectedId(park.id) }}
-                  >
-                    <Popup>
-                      <strong>{park.name}</strong>
-                      <br />
-                      {getCountryName(park.country)}
-                    </Popup>
-                  </CircleMarker>
-                ))}
+                <ParkMarkers
+                  visibleParks={visibleParks}
+                  selectedId={selectedPark?.id}
+                  onSelect={setSelectedId}
+                />
               </MapContainer>
             </div>
             {selectedPark && (
-              <article className="park-card">
+              <article
+                className={`park-card ${cardExpanded ? "is-expanded" : ""}`}
+              >
+                <button
+                  className="card-handle"
+                  onClick={() => setCardExpanded((open) => !open)}
+                  aria-expanded={cardExpanded}
+                >
+                  <span className="card-handle__bar" />
+                  <span className="card-handle__label">
+                    {selectedPark.name}
+                  </span>
+                </button>
                 <div className="card-status">
                   <span
                     className={isCountryAtWar(selectedPark) ? "caution" : ""}

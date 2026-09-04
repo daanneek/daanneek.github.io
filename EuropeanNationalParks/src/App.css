@@ -31,42 +31,20 @@ button {
   flex-direction: column;
   overflow: hidden;
 }
-.topbar {
-  height: 82px;
-  flex-shrink: 0;
-  padding: 0 4.5%;
-  border-bottom: 1px solid var(--line);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
 .wordmark {
-  position: absolute;
-  left: 139px;
-  transform: translateX(-50%);
   color: var(--ink);
   text-decoration: none;
-  font-size: 21px;
+  font-size: 19px;
   letter-spacing: 0.04em;
   font-weight: 700;
   white-space: nowrap;
 }
 .wordmark span {
   color: var(--orange);
-  font-size: 23px;
+  font-size: 21px;
   margin-right: 7px;
   vertical-align: -2px;
 }
-.intro {
-  min-height: 140px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 4.5% 22px;
-}
-.eyebrow,
 .filter-title {
   margin: 0 0 14px;
   color: var(--green);
@@ -76,28 +54,9 @@ button {
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
-h1,
 h2,
 p {
   margin-top: 0;
-}
-h1 {
-  margin: 0;
-  font:
-    600 clamp(45px, 6vw, 76px)/0.92 Fraunces,
-    serif;
-  letter-spacing: -0.04em;
-}
-h1 em {
-  color: var(--green);
-  font-style: italic;
-}
-.intro-copy {
-  width: 285px;
-  margin-right: 7%;
-  color: #526059;
-  font-size: 15px;
-  line-height: 1.55;
 }
 .workspace {
   flex: 1;
@@ -115,15 +74,13 @@ h1 em {
   padding: 34px 26px 24px;
   border-right: 1px solid var(--line);
   background: rgba(242, 240, 232, 0.75);
+  overflow: hidden;
 }
 .sidebar-heading {
   display: flex;
   justify-content: space-between;
-  align-items: start;
-  margin-bottom: 32px;
-}
-.sidebar-heading .eyebrow {
-  margin-bottom: 8px;
+  align-items: center;
+  margin-bottom: 28px;
 }
 h2 {
   font:
@@ -133,12 +90,6 @@ h2 {
 }
 .sidebar h2 {
   margin: 0;
-}
-.result-count {
-  color: var(--green);
-  font:
-    21px "DM Mono",
-    monospace;
 }
 label {
   color: var(--muted);
@@ -170,8 +121,150 @@ select:focus {
 input::placeholder {
   color: #9ba49c;
 }
-.select-label {
+.combobox {
+  position: relative;
   margin-top: 22px;
+}
+.combobox-field {
+  position: relative;
+}
+.combobox-field input {
+  padding-right: 32px;
+  cursor: pointer;
+  transition:
+    border-color 0.18s ease,
+    background-color 0.18s ease;
+}
+.combobox-field input:hover {
+  border-color: var(--green);
+  background-color: rgba(220, 233, 221, 0.45);
+}
+.combobox-trigger {
+  width: 100%;
+  margin-top: 8px;
+  padding: 13px 32px 13px 11px;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  background: transparent;
+  font:
+    13px Manrope,
+    sans-serif;
+  text-align: left;
+  transition:
+    border-color 0.18s ease,
+    background-color 0.18s ease;
+}
+.combobox-trigger:hover,
+.combobox-trigger:focus-visible {
+  border-color: var(--green);
+  background-color: rgba(220, 233, 221, 0.45);
+  outline: none;
+}
+.combobox.is-open .combobox-trigger {
+  border-color: var(--green);
+}
+.combobox.is-open .combobox-field input {
+  cursor: text;
+  border-color: var(--green);
+  background-color: rgba(242, 240, 232, 0.9);
+}
+.combobox-caret {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  width: 8px;
+  height: 8px;
+  margin-top: -6px;
+  border-right: 1.4px solid var(--green);
+  border-bottom: 1.4px solid var(--green);
+  transform: rotate(45deg);
+  transform-origin: 70% 70%;
+  transition: transform 0.2s ease;
+  pointer-events: none;
+}
+.combobox.is-open .combobox-caret {
+  transform: rotate(-135deg);
+}
+.combobox-list {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 40;
+  max-height: 232px;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  border: 1px solid var(--green);
+  background: var(--paper);
+  box-shadow: 0 12px 24px rgba(23, 35, 29, 0.14);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--green) transparent;
+  animation: combobox-open 0.16s ease;
+}
+.combobox-list::-webkit-scrollbar,
+.results-list::-webkit-scrollbar {
+  width: 8px;
+}
+.combobox-list::-webkit-scrollbar-track,
+.results-list::-webkit-scrollbar-track {
+  background: transparent;
+  border-left: 1px solid var(--line);
+}
+.combobox-list::-webkit-scrollbar-thumb,
+.results-list::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.combobox-list:hover::-webkit-scrollbar-thumb,
+.results-list:hover::-webkit-scrollbar-thumb {
+  background: var(--green);
+  background-clip: padding-box;
+}
+@keyframes combobox-open {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+.combobox-option {
+  padding: 9px 12px;
+  color: var(--ink);
+  font:
+    13px Manrope,
+    sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+.combobox-option.is-active {
+  background: var(--mint);
+}
+.combobox-option.is-selected {
+  color: var(--green);
+  font-weight: 600;
+}
+.combobox-option.is-selected::after {
+  content: "✓";
+  float: right;
+}
+.combobox-empty {
+  padding: 11px 12px;
+  color: var(--muted);
+  font:
+    11px "DM Mono",
+    monospace;
+}
+@media (prefers-reduced-motion: reduce) {
+  .combobox-list {
+    animation: none;
+  }
+  .combobox-caret {
+    transition: none;
+  }
 }
 .filter-block {
   margin-top: 32px;
@@ -232,13 +325,80 @@ input::placeholder {
 .card-status > span.caution {
   background: var(--orange);
 }
-.sidebar-foot {
+.results {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin-top: 24px;
+  padding-top: 20px;
   border-top: 1px solid var(--line);
-  margin: auto 0 0;
-  padding-top: 19px;
+}
+.results-list {
+  flex: 1 1 auto;
+  min-height: 0;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  border: 1px solid var(--line);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--green) transparent;
+}
+.result-item {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  width: 100%;
+  padding: 8px 8px 8px 2px;
+  border: 0;
+  border-left: 2px solid transparent;
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+.result-item:hover,
+.result-item:focus-visible {
+  background: rgba(220, 233, 221, 0.5);
+  outline: none;
+}
+.result-item.is-selected {
+  border-left-color: var(--green);
+  background: var(--mint);
+}
+.result-item .legend-dot {
+  flex-shrink: 0;
+  margin: 0 0 0 6px;
+}
+.result-item__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.result-item__text strong {
+  font:
+    500 12px Manrope,
+    sans-serif;
+  line-height: 1.35;
+}
+.result-item__text em {
   color: var(--muted);
-  font-size: 10px;
-  line-height: 1.55;
+  font:
+    9px "DM Mono",
+    monospace;
+  font-style: normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.results-empty {
+  padding: 10px 2px;
+  color: var(--muted);
+  font-size: 11px;
 }
 .map-column {
   display: contents;
@@ -286,6 +446,8 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 1050;
   color: var(--muted);
   font:
     11px "DM Mono",
@@ -303,17 +465,33 @@ input::placeholder {
   color: var(--muted);
   font: inherit;
 }
-.map-style-control select {
-  width: auto;
+.map-style-control .combobox {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 0;
+}
+.map-style-control .combobox label {
+  font: inherit;
+  white-space: nowrap;
+}
+.map-style-control .combobox-trigger {
   min-width: 145px;
   margin-top: 0;
-  padding: 8px 28px 8px 9px;
-  color: var(--ink);
+  padding: 8px 30px 8px 9px;
   font:
     11px Manrope,
     sans-serif;
   text-transform: none;
   letter-spacing: 0;
+}
+.map-style-control .combobox-caret {
+  right: 11px;
+}
+.map-style-control .combobox-list {
+  left: auto;
+  right: 0;
+  min-width: 175px;
 }
 .zoom-controls {
   display: flex;
@@ -367,77 +545,128 @@ input::placeholder {
   font-size: 11px;
   line-height: 1.6;
 }
-.coast {
-  fill: none;
-  stroke: #517b5e;
-  stroke-width: 2;
-  opacity: 0.7;
+.park-marker {
+  cursor: pointer;
+  background: none;
+  border: 0;
 }
-.park-pin {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  transform: translate(-50%, -50%);
-  border: 1px solid rgba(242, 240, 232, 0.9);
-  border-radius: 50%;
-  padding: 4px;
-  background: rgba(46, 109, 82, 0.22);
-}
-.park-pin span {
+.park-marker__pin {
   display: block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--green);
+  transform-origin: 50% 100%;
+  transition:
+    transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+    filter 0.2s ease;
+  filter: drop-shadow(0 2px 3px rgba(23, 35, 29, 0.32));
 }
-.park-pin.caution span {
-  background: var(--orange);
+.park-marker__body {
+  fill: var(--green);
+  stroke: var(--paper);
+  stroke-width: 2;
 }
-.park-pin.selected {
-  width: 29px;
-  height: 29px;
-  background: rgba(242, 240, 232, 0.35);
-  border-color: var(--ink);
+.park-marker__core {
+  fill: var(--paper);
 }
-.park-pin.selected span {
-  width: 13px;
-  height: 13px;
-  margin: 2px;
-  background: var(--ink);
+.park-marker--caution .park-marker__body {
+  fill: var(--orange);
 }
-.map-label {
+.park-marker:hover .park-marker__pin {
+  transform: translateY(-4px) scale(1.16);
+  filter: drop-shadow(0 7px 7px rgba(23, 35, 29, 0.38));
+}
+.park-marker:active .park-marker__pin {
+  transform: translateY(0) scale(0.9);
+  transition-duration: 0.08s;
+}
+.park-marker:focus-visible {
+  outline: none;
+}
+.park-marker:focus-visible .park-marker__pin {
+  transform: translateY(-4px) scale(1.16);
+}
+.park-marker.is-selected .park-marker__body {
+  fill: var(--ink);
+}
+.park-marker.is-selected .park-marker__pin {
+  transform: translateY(-2px) scale(1.22);
+  animation: marker-drop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.park-marker.is-selected:active .park-marker__pin {
+  transform: translateY(0) scale(1);
+}
+.park-marker__halo {
   position: absolute;
-  color: rgba(46, 76, 53, 0.65);
-  font:
-    10px "DM Mono",
-    monospace;
-}
-.north {
+  left: 14px;
   top: 13px;
-  left: 50%;
+  width: 34px;
+  height: 34px;
+  margin: -17px 0 0 -17px;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  animation: marker-pulse 1.9s ease-out infinite;
+  pointer-events: none;
 }
-.west {
-  left: 13px;
-  top: 49%;
+@keyframes marker-drop {
+  from {
+    transform: translateY(-16px) scale(0.75);
+    opacity: 0;
+  }
 }
-.east {
-  right: 13px;
-  top: 49%;
+@keyframes marker-pulse {
+  0% {
+    transform: scale(0.55);
+    opacity: 0.5;
+  }
+  70% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-.south {
-  bottom: 13px;
-  left: 50%;
+@media (prefers-reduced-motion: reduce) {
+  .park-marker__pin,
+  .park-marker__halo {
+    transition: none;
+    animation: none;
+  }
 }
-.scale {
-  position: absolute;
-  left: 17px;
-  bottom: 17px;
-  border-top: 2px solid var(--green);
-  padding-top: 5px;
-  color: var(--green);
+.mobile-filters-toggle,
+.sidebar-close,
+.card-handle,
+.mobile-backdrop {
+  display: none;
+}
+.park-cluster {
+  cursor: pointer;
+}
+.park-cluster__bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--paper);
+  border-radius: 50%;
+  color: var(--paper);
+  background: var(--green);
+  box-shadow: 0 2px 5px rgba(23, 35, 29, 0.32);
   font:
-    9px "DM Mono",
+    12px "DM Mono",
     monospace;
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.park-cluster:hover .park-cluster__bubble {
+  transform: scale(1.12);
+}
+.park-cluster:active .park-cluster__bubble {
+  transform: scale(0.94);
+  transition-duration: 0.08s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .park-cluster__bubble {
+    transition: none;
+  }
 }
 .card-status {
   color: var(--green);
@@ -477,82 +706,182 @@ input::placeholder {
     14px Manrope,
     sans-serif;
 }
-.details-link {
-  border: 0;
-  border-bottom: 1px solid var(--green);
-  padding: 0 0 3px;
-  color: var(--green);
-  background: transparent;
-  font-size: 11px;
-}
-.details-link span {
-  font-size: 15px;
-  margin-left: 8px;
-}
-footer {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-  padding: 14px 0;
-  color: var(--muted);
-  font:
-    9px "DM Mono",
-    monospace;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
 @media (max-width: 760px) {
   .app-shell {
+    height: 100svh;
     padding: 0;
   }
-  .topbar {
-    height: 67px;
-    padding: 0 5%;
-  }
   .wordmark {
-    left: 50%;
+    font-size: 17px;
   }
-  .intro {
-    min-height: 205px;
-    display: block;
-    padding: 38px 5% 28px;
+  .wordmark span {
+    font-size: 19px;
   }
-  .intro-copy {
-    width: auto;
-    margin: 18px 0 0;
-    max-width: 310px;
+  .mobile-filters-toggle {
+    display: inline-flex;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    z-index: 900;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 13px;
+    border: 1px solid var(--line);
+    background: rgba(242, 240, 232, 0.9);
+    color: var(--ink);
+    font:
+      10px "DM Mono",
+      monospace;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 2px 6px rgba(23, 35, 29, 0.18);
   }
   .workspace {
-    display: block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 0;
   }
-  .sidebar {
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
-    min-height: auto;
-  }
-  .sidebar-foot {
-    margin-top: 26px;
-  }
-  .map-column {
-    padding: 0 0 20px;
-  }
+  .map-column,
   .map-body {
-    display: block;
+    display: contents;
+  }
+  .map-toolbar {
+    flex: 0 0 auto;
+    height: 46px;
+    padding: 0 16px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(242, 240, 232, 0.75);
+  }
+  .map-style-control .combobox-trigger {
+    min-width: 0;
   }
   .map-stage {
-    height: 330px;
+    flex: 1 1 auto;
+    height: auto;
+    min-height: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+  .mobile-backdrop {
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 1100;
+    background: rgba(23, 35, 29, 0.45);
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.25s ease,
+      visibility 0.25s ease;
+  }
+  .workspace.filters-open .mobile-backdrop {
+    opacity: 1;
+    visibility: visible;
+  }
+  .sidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1200;
+    width: min(86vw, 330px);
+    padding: 26px 22px 24px;
+    border-right: 1px solid var(--line);
+    border-bottom: 0;
+    background: var(--paper);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    transform: translateX(-101%);
+    transition: transform 0.28s ease;
+  }
+  .sidebar.is-open {
+    transform: none;
+  }
+  .sidebar-close {
+    display: block;
+    align-self: flex-end;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 8px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1;
+  }
+  .results {
+    flex: 0 0 auto;
+  }
+  .results-list {
+    flex: 0 0 auto;
+    max-height: 46vh;
   }
   .park-card {
-    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    height: auto;
+    margin: 0;
+    padding: 0 18px calc(20px + env(safe-area-inset-bottom));
+    border: 0;
+    border-top: 1px solid var(--line);
+    background: var(--paper);
+    box-shadow: 0 -8px 22px rgba(23, 35, 29, 0.16);
+    transform: translateY(calc(100% - 50px));
+    transition: transform 0.3s ease;
+  }
+  .park-card.is-expanded {
+    transform: none;
+  }
+  .card-handle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    width: calc(100% + 36px);
+    margin: 0 -18px;
+    padding: 9px 18px 11px;
+    border: 0;
+    background: transparent;
+    color: var(--ink);
+  }
+  .card-handle__bar {
+    width: 38px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--line);
+  }
+  .card-handle__label {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font:
+      11px "DM Mono",
+      monospace;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .park-card.is-expanded .card-handle__label {
+    color: var(--muted);
   }
   .park-facts {
     gap: 24px;
   }
   .park-card h2 {
+    margin-top: 10px;
     font-size: 24px;
   }
-  footer {
-    display: block;
-    line-height: 2;
+  .leaflet-bottom.leaflet-right {
+    bottom: 60px;
+  }
+  .park-marker__pin {
+    transform: scale(1.15);
+  }
+  .park-marker.is-selected .park-marker__pin {
+    transform: translateY(-2px) scale(1.35);
   }
 }

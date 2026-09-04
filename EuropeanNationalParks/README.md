@@ -1,16 +1,23 @@
-# React + Vite
+# Green Atlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A single-page React + Vite app for exploring European national parks on an interactive Leaflet map.
 
-Currently, two official plugins are available:
+- Filter by country, free-text search, or travel-advisory status
+- Clustered map markers backed by `supercluster`
+- Results list synced with the map, with fly-to on selection
+- OpenStreetMap and OpenTopoMap basemaps
+- Responsive down to phone widths
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Commands
 
-## React Compiler
+```bash
+npm install
+npm run dev     # http://localhost:5173/EuropeanNationalParks/
+npm run build
+npm run lint
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Data
 
-## Expanding the Oxlint configuration
+Park records live in `src/data/national_parks/`, one JSON file per ISO country code. Coordinates come from a Google Earth "National Parks in Europe" KML export. See `agents.md` for the current data contract and the enrichment backlog.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
