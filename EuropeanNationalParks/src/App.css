@@ -753,6 +753,19 @@ input::placeholder {
     border-bottom: 1px solid var(--line);
     background: rgba(242, 240, 232, 0.75);
   }
+  .map-toolbar > span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 9px;
+    border: 1px solid var(--line);
+    background: rgba(242, 240, 232, 0.9);
+    white-space: nowrap;
+  }
+  .map-style-control {
+    padding-left: 10px;
+    border-left: 1px solid var(--line);
+  }
   .map-style-control .combobox-trigger {
     min-width: 0;
   }
@@ -875,8 +888,8 @@ input::placeholder {
     margin-top: 10px;
     font-size: 24px;
   }
-  .leaflet-bottom.leaflet-right {
-    bottom: 60px;
+  .map-stage.has-selected-park .leaflet-bottom.leaflet-right {
+    bottom: 50px;
   }
   .park-marker__pin {
     transform: scale(1.15);

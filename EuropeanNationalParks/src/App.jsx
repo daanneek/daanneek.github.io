@@ -256,13 +256,22 @@ const getClusterIcon = (count) => {
 
 function MapZoomButtons() {
   const map = useMap();
+  const [zoom, setZoom] = useState(map.getZoom());
+
+  useEffect(() => {
+    const updateZoom = () => setZoom(map.getZoom());
+    updateZoom();
+    map.on("zoomend", updateZoom);
+
+    return () => map.off("zoomend", updateZoom);
+  }, [map]);
 
   return (
     <div className="zoom-controls">
       <button onClick={() => map.zoomIn()} aria-label="Zoom in">
         +
       </button>
-      <span>{map.getZoom()}×</span>
+      <span>{zoom}×</span>
       <button onClick={() => map.zoomOut()} aria-label="Zoom out">
         −
       </button>
@@ -297,8 +306,21 @@ function MapSizeFix() {
 }
 
 function MapStyleLayer({ mapStyle }) {
+  const map = useMap();
   const style = MAP_STYLES[mapStyle] ?? MAP_STYLES.osm;
-  return <TileLayer attribution={style.attribution} noWrap url={style.url} />;
+
+  useEffect(() => {
+    map.invalidateSize();
+  }, [map, mapStyle]);
+
+  return (
+    <TileLayer
+      key={mapStyle}
+      attribution={style.attribution}
+      noWrap
+      url={style.url}
+    />
+  );
 }
 
 function ParkMarkers({ visibleParks, selectedId, onSelect }) {
@@ -552,7 +574,7 @@ function App() {
             </div>
           </div>
           <div className="map-body">
-            <div className="map-stage">
+            <div className={`map-stage ${selectedPark ? "has-selected-park" : ""}`}>
               <button
                 className="mobile-filters-toggle"
                 onClick={() => setFiltersOpen(true)}
@@ -630,4 +652,3 @@ function App() {
 }
 
 export default App;
-
