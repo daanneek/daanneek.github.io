@@ -7,7 +7,7 @@
     "latitude": 44.698205,
     "longitude": 16.00647,
     "description": "",
-    "website": ""
+    "website": "https://npuna.com/"
   },
   {
     "id": "ba-sutjeska-national-park",
@@ -17,7 +17,7 @@
     "latitude": 43.303744,
     "longitude": 18.694726,
     "description": "",
-    "website": ""
+    "website": "https://www.npsutjeska.net/"
   },
   {
     "id": "ba-kozara-national-park",
@@ -27,7 +27,7 @@
     "latitude": 45.014116,
     "longitude": 16.910812,
     "description": "",
-    "website": ""
+    "website": "https://npkozara.com/"
   },
   {
     "id": "ba-nacionalni-park-drina",
@@ -37,6 +37,6 @@
     "latitude": 43.97103,
     "longitude": 19.532863,
     "description": "",
-    "website": ""
+    "website": "https://npdrina.com/"
   }
 ]

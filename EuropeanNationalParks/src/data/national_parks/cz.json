@@ -7,7 +7,7 @@
     "latitude": 48.972027,
     "longitude": 13.633135,
     "description": "",
-    "website": ""
+    "website": "https://www.npsumava.cz/en/"
   },
   {
     "id": "cz-bohemian-switzerland-national-park",
@@ -17,7 +17,7 @@
     "latitude": 50.878404,
     "longitude": 14.374297,
     "description": "",
-    "website": ""
+    "website": "https://www.npcs.cz/en"
   },
   {
     "id": "cz-krkonose-national-park",
@@ -27,7 +27,7 @@
     "latitude": 50.688949,
     "longitude": 15.657069,
     "description": "",
-    "website": ""
+    "website": "https://www.krnap.cz/en/"
   },
   {
     "id": "cz-podyji-national-park",
@@ -37,6 +37,7 @@
     "latitude": 48.844812,
     "longitude": 15.92027,
     "description": "",
-    "website": ""
+    "website": "https://www.nppodyji.cz/"
   }
 ]
+

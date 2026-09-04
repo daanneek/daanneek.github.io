@@ -7,7 +7,7 @@
     "latitude": 59.567662,
     "longitude": 25.781019,
     "description": "",
-    "website": ""
+    "website": "https://visitlahemaa.com/en/"
   },
   {
     "id": "ee-matsalu-national-park",
@@ -17,7 +17,7 @@
     "latitude": 58.756222,
     "longitude": 23.48276,
     "description": "",
-    "website": ""
+    "website": "https://visitmatsalu.ee/en/"
   },
   {
     "id": "ee-vilsandi-national-park",
@@ -27,7 +27,7 @@
     "latitude": 58.35832,
     "longitude": 21.856905,
     "description": "",
-    "website": ""
+    "website": "https://vilsandinationalpark.com/"
   },
   {
     "id": "ee-karula-national-park",
@@ -37,7 +37,7 @@
     "latitude": 57.701925,
     "longitude": 26.491525,
     "description": "",
-    "website": ""
+    "website": "https://rmk.ee/en/exploring-nature/where-to-go/karula-national-park-visitor-center/"
   },
   {
     "id": "ee-soomaa-national-park",
@@ -47,7 +47,7 @@
     "latitude": 58.488793,
     "longitude": 24.982437,
     "description": "",
-    "website": ""
+    "website": "https://soomaa.com/"
   },
   {
     "id": "ee-alutaguse-national-park",
@@ -57,6 +57,7 @@
     "latitude": 59.104681,
     "longitude": 27.457945,
     "description": "",
-    "website": ""
+    "website": "https://kaitsealad.ee/en/protected-areas/alutaguse-national-park"
   }
 ]
+

@@ -7,7 +7,7 @@
     "latitude": 40.367463,
     "longitude": 20.428043,
     "description": "",
-    "website": ""
+    "website": "https://akzm.gov.al/"
   },
   {
     "id": "al-llogara-national-park",
@@ -17,7 +17,7 @@
     "latitude": 40.212895,
     "longitude": 19.575225,
     "description": "",
-    "website": ""
+    "website": "https://akzm.gov.al/"
   },
   {
     "id": "al-shebenik-national-park",
@@ -27,7 +27,7 @@
     "latitude": 41.237966,
     "longitude": 20.422345,
     "description": "",
-    "website": ""
+    "website": "https://akzm.gov.al/"
   },
   {
     "id": "al-dajti-national-park",
@@ -37,7 +37,7 @@
     "latitude": 41.382062,
     "longitude": 19.962663,
     "description": "",
-    "website": ""
+    "website": "https://dajtiekspres.com/"
   },
   {
     "id": "al-prespa-national-park",
@@ -47,7 +47,7 @@
     "latitude": 40.794169,
     "longitude": 20.879134,
     "description": "",
-    "website": ""
+    "website": "https://akt.gov.al/en/attractions/Prespa-National-Park"
   },
   {
     "id": "al-tomorri-mountain-national-park",
@@ -57,7 +57,7 @@
     "latitude": 40.709546,
     "longitude": 20.128456,
     "description": "",
-    "website": ""
+    "website": "https://akzm.gov.al/"
   },
   {
     "id": "al-divjaka-karavasta-national-park",
@@ -67,7 +67,7 @@
     "latitude": 40.92902,
     "longitude": 19.497306,
     "description": "",
-    "website": ""
+    "website": "https://akzm.gov.al/"
   },
   {
     "id": "al-vjosa-wild-river-national-park",
@@ -77,7 +77,7 @@
     "latitude": 40.286793,
     "longitude": 20.237168,
     "description": "",
-    "website": ""
+    "website": "https://www.vjosanationalpark.al/"
   },
   {
     "id": "al-butrint-national-archaeological-park",
@@ -87,7 +87,7 @@
     "latitude": 39.744015,
     "longitude": 20.019468,
     "description": "",
-    "website": ""
+    "website": "https://butrint.al/"
   },
   {
     "id": "al-lura-mt-dejes-national-park",
@@ -97,7 +97,7 @@
     "latitude": 41.787858,
     "longitude": 20.194496,
     "description": "",
-    "website": ""
+    "website": "https://akzm.gov.al/"
   },
   {
     "id": "al-karaburun-sazan-national-marine-park",
@@ -107,7 +107,7 @@
     "latitude": 40.491646,
     "longitude": 19.274167,
     "description": "",
-    "website": ""
+    "website": "https://akzm.gov.al/"
   },
   {
     "id": "al-alps-of-albania-national-park",
@@ -117,6 +117,7 @@
     "latitude": 42.343955,
     "longitude": 19.772099,
     "description": "",
-    "website": ""
+    "website": "https://akzm.gov.al/"
   }
 ]
+

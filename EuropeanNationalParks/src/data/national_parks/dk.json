@@ -7,7 +7,7 @@
     "latitude": 56.046298,
     "longitude": 12.377112,
     "description": "",
-    "website": ""
+    "website": "https://eng.nationalparkkongernesnordsjaelland.dk/"
   },
   {
     "id": "dk-wadden-sea-national-park",
@@ -17,7 +17,7 @@
     "latitude": 55.241032,
     "longitude": 8.497208,
     "description": "",
-    "website": ""
+    "website": "https://eng.nationalparkvadehavet.dk/"
   },
   {
     "id": "dk-nationalpark-mols-bjerge",
@@ -27,7 +27,7 @@
     "latitude": 56.283449,
     "longitude": 10.479454,
     "description": "",
-    "website": ""
+    "website": "https://eng.nationalparkmolsbjerge.dk/"
   },
   {
     "id": "dk-skjoldungernes-land-national-park",
@@ -37,7 +37,7 @@
     "latitude": 55.664652,
     "longitude": 11.998783,
     "description": "",
-    "website": ""
+    "website": "https://eng.nationalparkskjoldungernesland.dk/"
   },
   {
     "id": "dk-nationalpark-thy-visitor-centre-stenbjerg-landingsplads",
@@ -47,6 +47,7 @@
     "latitude": 56.929808,
     "longitude": 8.33822,
     "description": "",
-    "website": ""
+    "website": "https://eng.nationalparkthy.dk/explore-the-national-park/visitor-centers/stenbjerg-landingsplads"
   }
 ]
+

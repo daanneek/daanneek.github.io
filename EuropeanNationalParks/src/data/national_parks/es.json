@@ -7,7 +7,7 @@
     "latitude": 43.186968,
     "longitude": -4.871243,
     "description": "",
-    "website": ""
+    "website": "https://parquenacionalpicoseuropa.es/"
   },
   {
     "id": "es-sierra-nevada-national-park",
@@ -17,7 +17,7 @@
     "latitude": 37.094775,
     "longitude": -3.400636,
     "description": "",
-    "website": ""
+    "website": "https://sierranevada.es/en/invierno/the-station/environment/natural-and-national-park/"
   },
   {
     "id": "es-ordesa-y-monte-perdido-national-park",
@@ -27,7 +27,7 @@
     "latitude": 42.64687,
     "longitude": 0.0349,
     "description": "",
-    "website": ""
+    "website": "https://www.aragon.es/-/parque-nacional-de-ordesa-y-monte-perdido"
   },
   {
     "id": "es-parque-nacional-del-teide",
@@ -37,7 +37,7 @@
     "latitude": 28.253879,
     "longitude": -16.618268,
     "description": "",
-    "website": ""
+    "website": "https://www.volcanoteide.com/en/national_park"
   },
   {
     "id": "es-parque-nacional-de-cabaneros",
@@ -47,7 +47,7 @@
     "latitude": 39.400741,
     "longitude": -4.493183,
     "description": "",
-    "website": ""
+    "website": "https://www.visitacabaneros.es/"
   },
   {
     "id": "es-timanfaya-national-park",
@@ -57,7 +57,7 @@
     "latitude": 29.01575,
     "longitude": -13.782924,
     "description": "",
-    "website": ""
+    "website": "https://www.gobiernodecanarias.org/parquesnacionales/timanfaya/"
   },
   {
     "id": "es-donana-national-park",
@@ -67,7 +67,7 @@
     "latitude": 37.042729,
     "longitude": -6.434447,
     "description": "",
-    "website": ""
+    "website": "https://www.donanareservas.com/en/donana/"
   },
   {
     "id": "es-aiguestortes-i-estany-de-sant-maurici-national-park",
@@ -77,7 +77,7 @@
     "latitude": 42.566849,
     "longitude": 0.92475,
     "description": "",
-    "website": ""
+    "website": "https://parcsnaturals.gencat.cat/en/xarxa-de-parcs/aiguestortes/inici/"
   },
   {
     "id": "es-parque-nacional-sierra-de-las-nieves",
@@ -87,7 +87,7 @@
     "latitude": 36.698977,
     "longitude": -4.997553,
     "description": "",
-    "website": ""
+    "website": "https://www.i-sierradelasnieves.com/"
   },
   {
     "id": "es-cabrera-archipelago-maritime-terrestrial-national-park",
@@ -97,7 +97,7 @@
     "latitude": 39.141002,
     "longitude": 2.944407,
     "description": "",
-    "website": ""
+    "website": "https://www.caib.es/rescabfront/?lang=en"
   },
   {
     "id": "es-sierra-de-guadarrama-national-park",
@@ -107,7 +107,7 @@
     "latitude": 40.847957,
     "longitude": -3.946476,
     "description": "",
-    "website": ""
+    "website": "https://www.parquenacionalsierraguadarrama.es/"
   },
   {
     "id": "es-parque-nacional-de-monfrague",
@@ -117,7 +117,7 @@
     "latitude": 39.813014,
     "longitude": -5.937073,
     "description": "",
-    "website": ""
+    "website": "https://www.parquenacionaldemonfrague.com/en/monfrague-national-park/"
   },
   {
     "id": "es-parque-nacional-maritimo-terrestre-de-las-islas-atlanticas-de-galicia",
@@ -127,7 +127,7 @@
     "latitude": 42.377719,
     "longitude": -8.936686,
     "description": "",
-    "website": ""
+    "website": "https://illasatlanticas.gal/es/inicio"
   },
   {
     "id": "es-tablas-daimiel",
@@ -137,7 +137,7 @@
     "latitude": 39.138028,
     "longitude": -3.697037,
     "description": "",
-    "website": ""
+    "website": "https://www.lastablasdedaimiel.com/"
   },
   {
     "id": "es-caldera-de-taburiente-national-park",
@@ -147,7 +147,7 @@
     "latitude": 28.72949,
     "longitude": -17.870235,
     "description": "",
-    "website": ""
+    "website": "https://www.reservasparquesnacionales.es/real/parquesnac/usu/html/listado-actividades-oapn.aspx?cen=4&ii=6eng"
   },
   {
     "id": "es-parque-nacional-de-garajonay",
@@ -157,6 +157,7 @@
     "latitude": 28.128109,
     "longitude": -17.237483,
     "description": "",
-    "website": ""
+    "website": "https://www.garajonay.info/english"
   }
 ]
+

@@ -7,7 +7,7 @@
     "latitude": 50.581538,
     "longitude": 6.423238,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-eifel.de/en/"
   },
   {
     "id": "de-nationalpark-schwarzwald",
@@ -17,7 +17,7 @@
     "latitude": 48.561004,
     "longitude": 8.226677,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-schwarzwald.de/"
   },
   {
     "id": "de-hunsruck-hochwald-national-park",
@@ -27,7 +27,7 @@
     "latitude": 49.693593,
     "longitude": 7.067484,
     "description": "",
-    "website": ""
+    "website": "https://www.nlphh.de"
   },
   {
     "id": "de-nationalpark-berchtesgaden",
@@ -37,7 +37,7 @@
     "latitude": 47.552893,
     "longitude": 12.917668,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-berchtesgaden.bayern.de/"
   },
   {
     "id": "de-nationalpark-bayerischer-wald",
@@ -47,7 +47,7 @@
     "latitude": 48.988001,
     "longitude": 13.384103,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-bayerischer-wald.bayern.de/"
   },
   {
     "id": "de-saxon-switzerland-national-park",
@@ -57,7 +57,7 @@
     "latitude": 50.914524,
     "longitude": 14.281172,
     "description": "",
-    "website": ""
+    "website": "https://nationalpark-saechsische-schweiz.de/en"
   },
   {
     "id": "de-harz-national-park",
@@ -67,7 +67,7 @@
     "latitude": 51.779866,
     "longitude": 10.523191,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-harz.de/en/start/"
   },
   {
     "id": "de-nationalpark-schleswig-holsteinisches-wattenmeer",
@@ -77,7 +77,7 @@
     "latitude": 54.483774,
     "longitude": 8.446826,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-wattenmeer.de/"
   },
   {
     "id": "de-hamburgisches-wattenmeer-national-park",
@@ -87,7 +87,7 @@
     "latitude": 53.907693,
     "longitude": 8.565494,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-wattenmeer.de/hh/"
   },
   {
     "id": "de-niedersachsisches-wattenmeer-national-park",
@@ -97,7 +97,7 @@
     "latitude": 53.285503,
     "longitude": 7.223732,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-wattenmeer.de/"
   },
   {
     "id": "de-hainich-national-park",
@@ -107,7 +107,7 @@
     "latitude": 51.084285,
     "longitude": 10.438122,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-hainich.de/en/index.html"
   },
   {
     "id": "de-kellerwald-edersee-national-park",
@@ -117,7 +117,7 @@
     "latitude": 51.149758,
     "longitude": 8.973736,
     "description": "",
-    "website": ""
+    "website": "https://en.naturpark-kellerwald-edersee.de/"
   },
   {
     "id": "de-jasmund-national-park",
@@ -127,7 +127,7 @@
     "latitude": 54.551059,
     "longitude": 13.647866,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-jasmund.de/en/"
   },
   {
     "id": "de-nationalpark-vorpommersche-boddenlandschaft",
@@ -137,7 +137,7 @@
     "latitude": 54.393034,
     "longitude": 12.527522,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-vorpommersche-boddenlandschaft.de/"
   },
   {
     "id": "de-unteres-odertal-national-park",
@@ -147,7 +147,7 @@
     "latitude": 53.034876,
     "longitude": 14.274666,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalpark-unteres-odertal.eu/en/"
   },
   {
     "id": "de-muritz-nationalpark",
@@ -157,6 +157,7 @@
     "latitude": 53.31103,
     "longitude": 13.279927,
     "description": "",
-    "website": ""
+    "website": "https://www.mueritz-nationalpark.de/"
   }
 ]
+

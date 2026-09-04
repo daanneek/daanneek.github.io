@@ -7,7 +7,7 @@
     "latitude": 47.072024,
     "longitude": 12.667666,
     "description": "",
-    "website": ""
+    "website": "https://www.hohetauern.at/"
   },
   {
     "id": "at-nationalpark-gesause",
@@ -17,7 +17,7 @@
     "latitude": 47.565208,
     "longitude": 14.589113,
     "description": "",
-    "website": ""
+    "website": "https://nationalpark-gesaeuse.at/"
   },
   {
     "id": "at-nationalpark-kalkalpen",
@@ -27,7 +27,7 @@
     "latitude": 47.782426,
     "longitude": 14.384326,
     "description": "",
-    "website": ""
+    "website": "https://www.kalkalpen.at/"
   },
   {
     "id": "at-thayatal-national-park",
@@ -37,7 +37,7 @@
     "latitude": 48.844471,
     "longitude": 15.860063,
     "description": "",
-    "website": ""
+    "website": "https://www.np-thayatal.at/"
   },
   {
     "id": "at-lake-neusiedl-seewinkel-national-park",
@@ -47,7 +47,7 @@
     "latitude": 47.77046,
     "longitude": 16.801729,
     "description": "",
-    "website": ""
+    "website": "https://www.nationalparkneusiedlersee.at/"
   },
   {
     "id": "at-nationalpark-donau-auen",
@@ -57,6 +57,7 @@
     "latitude": 48.194417,
     "longitude": 16.468985,
     "description": "",
-    "website": ""
+    "website": "https://www.donauauen.at/"
   }
 ]
+

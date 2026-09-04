@@ -7,7 +7,7 @@
     "latitude": 52.56928,
     "longitude": 23.802966,
     "description": "",
-    "website": ""
+    "website": "https://npbp.by/eng/"
   },
   {
     "id": "by-braslau-lakes-national-park",
@@ -17,7 +17,7 @@
     "latitude": 55.644909,
     "longitude": 27.016575,
     "description": "",
-    "website": ""
+    "website": "https://braslavpark.by/en/"
   },
   {
     "id": "by-prypyatski-national-park",
@@ -27,7 +27,7 @@
     "latitude": 52.139285,
     "longitude": 26.888713,
     "description": "",
-    "website": ""
+    "website": "https://www.belarus.by/en/about-belarus/natural-history/pripyatsky-national-park"
   },
   {
     "id": "by-narachanski-national-park",
@@ -37,6 +37,7 @@
     "latitude": 54.909534,
     "longitude": 26.706591,
     "description": "",
-    "website": ""
+    "website": "https://narochpark.by/?lang=en"
   }
 ]
+

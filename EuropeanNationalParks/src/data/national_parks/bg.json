@@ -7,7 +7,7 @@
     "latitude": 42.144337,
     "longitude": 23.524767,
     "description": "",
-    "website": ""
+    "website": "https://rilanationalpark.bg/en/"
   },
   {
     "id": "bg-central-balkan-national-park",
@@ -17,7 +17,7 @@
     "latitude": 42.711214,
     "longitude": 24.761218,
     "description": "",
-    "website": ""
+    "website": "https://visitcentralbalkan.net/"
   },
   {
     "id": "bg-pirin-national-park",
@@ -27,6 +27,7 @@
     "latitude": 41.724546,
     "longitude": 23.41481,
     "description": "",
-    "website": ""
+    "website": "https://www.pirin.bg/"
   }
 ]
+
