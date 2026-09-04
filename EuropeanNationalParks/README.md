@@ -12,7 +12,7 @@ A single-page React + Vite app for exploring European national parks on an inter
 
 ```bash
 npm install
-npm run dev     # http://localhost:5173/EuropeanNationalParks/
+npm run dev     # http://localhost:5173/
 npm run build
 npm run lint
 ```
@@ -20,4 +20,3 @@ npm run lint
 ## Data
 
 Park records live in `src/data/national_parks/`, one JSON file per ISO country code. Coordinates come from a Google Earth "National Parks in Europe" KML export. See `agents.md` for the current data contract and the enrichment backlog.
-

@@ -3,7 +3,6 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/EuropeanNationalParks/",
+  base: "/",
   plugins: [react()],
 });
-

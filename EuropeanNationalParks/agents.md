@@ -10,7 +10,7 @@ Green Atlas is a single-page React/Vite app for exploring European national park
 - Start development server: `npm run dev`
 - Build production bundle: `npm run build`
 - Run lint: `npm run lint`
-- Dev server base path is `/EuropeanNationalParks/`, so the local URL is `http://localhost:5173/EuropeanNationalParks/`.
+- Dev server uses the site root, so the local URL is `http://localhost:5173/`.
 
 ## Structure
 
