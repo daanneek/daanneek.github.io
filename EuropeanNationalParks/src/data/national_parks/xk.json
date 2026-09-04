@@ -1,0 +1,26 @@
+[
+  {
+    "id": "google-earth-064",
+    "name": "Sharr Mountain National Park",
+    "country": "XK",
+    "code": "XK",
+    "latitude": 42.205408,
+    "longitude": 20.944344,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-065",
+    "name": "Bjeshkët e Nemuna National Park",
+    "country": "XK",
+    "code": "XK",
+    "latitude": 42.623414,
+    "longitude": 20.187911,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

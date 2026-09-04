@@ -1,0 +1,74 @@
+[
+  {
+    "id": "google-earth-060",
+    "name": "Tara National Park",
+    "country": "RS",
+    "code": "RS",
+    "latitude": 43.919046,
+    "longitude": 19.33468,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-066",
+    "name": "Djerdap National Park",
+    "country": "RS",
+    "code": "RS",
+    "latitude": 44.52896,
+    "longitude": 21.980269,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-106",
+    "name": "Fruška Gora National Park",
+    "country": "RS",
+    "code": "RS",
+    "latitude": 45.15614,
+    "longitude": 19.744403,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-107",
+    "name": "Stara Planina National Park",
+    "country": "RS",
+    "code": "RS",
+    "latitude": 43.209868,
+    "longitude": 22.678099,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-108",
+    "name": "Kopaonik National Park",
+    "country": "RS",
+    "code": "RS",
+    "latitude": 43.276191,
+    "longitude": 20.798512,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-109",
+    "name": "Национални парк Кучај-Бељаница",
+    "country": "RS",
+    "code": "RS",
+    "latitude": 44.075124,
+    "longitude": 21.735248,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

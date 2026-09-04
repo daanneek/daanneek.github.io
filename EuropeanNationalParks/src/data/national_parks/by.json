@@ -1,0 +1,50 @@
+[
+  {
+    "id": "google-earth-260",
+    "name": "Belavezhskaya Pushcha National Park",
+    "country": "BY",
+    "code": "BY",
+    "latitude": 52.56928,
+    "longitude": 23.802966,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-261",
+    "name": "Braslau Lakes National Park",
+    "country": "BY",
+    "code": "BY",
+    "latitude": 55.644909,
+    "longitude": 27.016575,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-262",
+    "name": "Prypyatski National Park",
+    "country": "BY",
+    "code": "BY",
+    "latitude": 52.139285,
+    "longitude": 26.888713,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-263",
+    "name": "Narachanski National Park",
+    "country": "BY",
+    "code": "BY",
+    "latitude": 54.909534,
+    "longitude": 26.706591,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

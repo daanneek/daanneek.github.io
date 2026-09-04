@@ -1,0 +1,74 @@
+[
+  {
+    "id": "google-earth-043",
+    "name": "Nationalpark Hohe Tauern",
+    "country": "AT",
+    "code": "AT",
+    "latitude": 47.072024,
+    "longitude": 12.667666,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-103",
+    "name": "Nationalpark Gesäuse",
+    "country": "AT",
+    "code": "AT",
+    "latitude": 47.565208,
+    "longitude": 14.589113,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-104",
+    "name": "Nationalpark Kalkalpen",
+    "country": "AT",
+    "code": "AT",
+    "latitude": 47.782426,
+    "longitude": 14.384326,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-105",
+    "name": "Thayatal National Park",
+    "country": "AT",
+    "code": "AT",
+    "latitude": 48.844471,
+    "longitude": 15.860063,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-276",
+    "name": "Lake Neusiedl - Seewinkel National Park",
+    "country": "AT",
+    "code": "AT",
+    "latitude": 47.77046,
+    "longitude": 16.801729,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-277",
+    "name": "Nationalpark Donau-Auen",
+    "country": "AT",
+    "code": "AT",
+    "latitude": 48.194417,
+    "longitude": 16.468985,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

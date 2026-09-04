@@ -1,0 +1,62 @@
+[
+  {
+    "id": "google-earth-098",
+    "name": "Curonian Spit National Park",
+    "country": "LT",
+    "code": "LT",
+    "latitude": 55.542113,
+    "longitude": 21.12075,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-099",
+    "name": "Dzūkija National Park",
+    "country": "LT",
+    "code": "LT",
+    "latitude": 54.163175,
+    "longitude": 24.186144,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-267",
+    "name": "Aukštaitija National Park",
+    "country": "LT",
+    "code": "LT",
+    "latitude": 55.34391,
+    "longitude": 26.05693,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-268",
+    "name": "Trakai Historical National Park",
+    "country": "LT",
+    "code": "LT",
+    "latitude": 54.647888,
+    "longitude": 24.933296,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-269",
+    "name": "Žemaitija National Park",
+    "country": "LT",
+    "code": "LT",
+    "latitude": 56.033622,
+    "longitude": 21.853167,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

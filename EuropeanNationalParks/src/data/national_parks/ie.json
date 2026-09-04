@@ -1,0 +1,86 @@
+[
+  {
+    "id": "google-earth-036",
+    "name": "Killarney National Park",
+    "country": "IE",
+    "code": "IE",
+    "latitude": 52.005845,
+    "longitude": -9.55618,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-037",
+    "name": "Kerry Seas National Park (Páirc Náisiúnta na Mara, Ciarraí)",
+    "country": "IE",
+    "code": "IE",
+    "latitude": 52.275495,
+    "longitude": -10.232042,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-038",
+    "name": "Burren National Park",
+    "country": "IE",
+    "code": "IE",
+    "latitude": 52.996828,
+    "longitude": -9.037361,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-039",
+    "name": "Connemara National Park",
+    "country": "IE",
+    "code": "IE",
+    "latitude": 53.540221,
+    "longitude": -9.88298,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-040",
+    "name": "Wicklow Mountains National Park",
+    "country": "IE",
+    "code": "IE",
+    "latitude": 53.14302,
+    "longitude": -6.310922,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-087",
+    "name": "Wild Nephin National Park",
+    "country": "IE",
+    "code": "IE",
+    "latitude": 53.984728,
+    "longitude": -9.560848,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-088",
+    "name": "Glenveagh National Park",
+    "country": "IE",
+    "code": "IE",
+    "latitude": 55.057588,
+    "longitude": -7.937687,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

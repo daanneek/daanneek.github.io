@@ -1,0 +1,62 @@
+[
+  {
+    "id": "google-earth-059",
+    "name": "Durmitor National Park",
+    "country": "ME",
+    "code": "ME",
+    "latitude": 43.211703,
+    "longitude": 19.116994,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-062",
+    "name": "National Park Prokletije",
+    "country": "ME",
+    "code": "ME",
+    "latitude": 42.531902,
+    "longitude": 19.913959,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-081",
+    "name": "Lovćen National Park",
+    "country": "ME",
+    "code": "ME",
+    "latitude": 42.397607,
+    "longitude": 18.843266,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-102",
+    "name": "Biogradska gora National Park",
+    "country": "ME",
+    "code": "ME",
+    "latitude": 42.900708,
+    "longitude": 19.595545,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-275",
+    "name": "Lake Skadar National Park",
+    "country": "ME",
+    "code": "ME",
+    "latitude": 42.245961,
+    "longitude": 19.090953,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

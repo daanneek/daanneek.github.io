@@ -1,0 +1,50 @@
+[
+  {
+    "id": "google-earth-097",
+    "name": "Gauja National Park",
+    "country": "LV",
+    "code": "LV",
+    "latitude": 57.332055,
+    "longitude": 25.212301,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-259",
+    "name": "Rāznas nacionālais parks",
+    "country": "LV",
+    "code": "LV",
+    "latitude": 56.267097,
+    "longitude": 27.479025,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-264",
+    "name": "Ķemeri National Park",
+    "country": "LV",
+    "code": "LV",
+    "latitude": 56.952161,
+    "longitude": 23.513171,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-265",
+    "name": "Slītere National Park",
+    "country": "LV",
+    "code": "LV",
+    "latitude": 57.693578,
+    "longitude": 22.413386,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

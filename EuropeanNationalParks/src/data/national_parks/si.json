@@ -1,0 +1,14 @@
+[
+  {
+    "id": "google-earth-027",
+    "name": "Triglav National Park",
+    "country": "SI",
+    "code": "SI",
+    "latitude": 46.342588,
+    "longitude": 13.799133,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

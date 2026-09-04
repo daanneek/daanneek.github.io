@@ -1,0 +1,14 @@
+[
+  {
+    "id": "google-earth-031",
+    "name": "Swiss National Park",
+    "country": "CH",
+    "code": "CH",
+    "latitude": 46.666626,
+    "longitude": 10.200026,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]

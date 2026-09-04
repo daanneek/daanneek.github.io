@@ -1,0 +1,86 @@
+[
+  {
+    "id": "google-earth-002",
+    "name": "National Park Hoge Kempen",
+    "country": "BE",
+    "code": "BE",
+    "latitude": 50.992458,
+    "longitude": 5.615112,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-082",
+    "name": "Nationaal Park Bosland",
+    "country": "BE",
+    "code": "BE",
+    "latitude": 51.162317,
+    "longitude": 5.316873,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-083",
+    "name": "Nationaal Park Scheldevallei",
+    "country": "BE",
+    "code": "BE",
+    "latitude": 51.110803,
+    "longitude": 4.221458,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-084",
+    "name": "Nationaal Park Brabantse Wouden",
+    "country": "BE",
+    "code": "BE",
+    "latitude": 50.810863,
+    "longitude": 4.662938,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-085",
+    "name": "Vallée de la Semois National Park",
+    "country": "BE",
+    "code": "BE",
+    "latitude": 49.903179,
+    "longitude": 5.13373,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-086",
+    "name": "Entre-Sambre-et-Meuse National Park",
+    "country": "BE",
+    "code": "BE",
+    "latitude": 50.073414,
+    "longitude": 4.428946,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  },
+  {
+    "id": "google-earth-254",
+    "name": "Grenspark Kalmthoutse Heide",
+    "country": "BE",
+    "code": "BE",
+    "latitude": 51.39959,
+    "longitude": 4.407619,
+    "description": "",
+    "source": "Google Earth project: National Parks in Europe",
+    "sourceAsOf": "2025-01-01",
+    "sourceFile": "National Parks in Europe.kml"
+  }
+]
