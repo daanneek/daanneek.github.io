@@ -39,10 +39,15 @@ jobs:
         working-directory: EuropeanNationalParks
         run: npm run build
 
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site/EuropeanNationalParks
+          cp -R EuropeanNationalParks/dist/. _site/EuropeanNationalParks/
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: EuropeanNationalParks/dist
+          path: _site
 
   deploy:
     environment:
