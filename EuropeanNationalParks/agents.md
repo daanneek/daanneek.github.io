@@ -36,7 +36,7 @@ Greenbound is a single-page React/Vite app for exploring European national parks
 
 ## Park data contract
 
-The park JSON under `src/data/national_parks/` currently only carries `id`, `name`, `country`, `code`, `latitude`, `longitude`, `description`, `source`, `sourceAsOf` and `sourceFile`. The `size`, `year`, `terrain`, `status` and `war` fields referenced by the UI are not populated yet, which is why the detail card is sparse. Data enrichment is planned; document the source, retrieval date, country definitions, area units, establishment-year rules, visitor status, and travel-advisory source when it lands.
+The park JSON under `src/data/national_parks/` carries a project-specific slug `id`, `name`, full country name in `country`, ISO-like country code in `code`, `latitude`, `longitude`, `description` and `website`. The `size`, `year`, `terrain`, `status` and `war` fields referenced by the UI are not populated yet, which is why the detail card is sparse. Data enrichment is planned; document country definitions, area units, establishment-year rules, visitor status, and travel-advisory source when it lands.
 
 ## Product state
 

@@ -1,26 +1,22 @@
 [
   {
-    "id": "google-earth-064",
+    "id": "xk-sharr-mountain-national-park",
     "name": "Sharr Mountain National Park",
-    "country": "XK",
+    "country": "Kosovo",
     "code": "XK",
     "latitude": 42.205408,
     "longitude": 20.944344,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-065",
+    "id": "xk-bjeshket-e-nemuna-national-park",
     "name": "Bjeshkët e Nemuna National Park",
-    "country": "XK",
+    "country": "Kosovo",
     "code": "XK",
     "latitude": 42.623414,
     "longitude": 20.187911,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

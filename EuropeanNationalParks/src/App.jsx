@@ -11,11 +11,9 @@ const parkDataModules = import.meta.glob("./data/national_parks/*.json", {
 });
 const parks = Object.values(parkDataModules).flat();
 const parkById = new Map(parks.map((park) => [park.id, park]));
-const countryNames = new Intl.DisplayNames(["en"], { type: "region" });
 const countriesAtWar = new Set(["BY", "RU", "UA"]);
 
-const getCountryName = (code) =>
-  code ? (countryNames.of(code) ?? code) : "Unknown country";
+const getCountryName = (country) => country || "Unknown country";
 const isCountryAtWar = (park) => countriesAtWar.has(park.code);
 
 const countries = [
@@ -437,7 +435,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [country, setCountry] = useState("All countries");
   const [excludeWar, setExcludeWar] = useState(false);
-  const [selectedId, setSelectedId] = useState("triglav");
+  const [selectedId, setSelectedId] = useState("si-triglav-national-park");
   const [mapStyle, setMapStyle] = useState("osm");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [cardExpanded, setCardExpanded] = useState(false);
@@ -655,6 +653,16 @@ function App() {
                   {getCountryName(selectedPark.country)} ·{" "}
                   {selectedPark.terrain || "National park"}
                 </p>
+                {selectedPark.website?.trim() && (
+                  <a
+                    className="park-website"
+                    href={selectedPark.website}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    More info <span aria-hidden="true">↗</span>
+                  </a>
+                )}
                 <div className="park-facts">
                   <div>
                     <span>Coordinates</span>

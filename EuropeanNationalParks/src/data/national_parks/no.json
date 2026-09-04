@@ -1,554 +1,462 @@
 [
   {
-    "id": "google-earth-233",
+    "id": "no-jostedalsbreen-national-park",
     "name": "Jostedalsbreen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 61.659925,
     "longitude": 7.044121,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-235",
+    "id": "no-jotunheimen-national-park",
     "name": "Jotunheimen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 61.553592,
     "longitude": 8.484206,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-236",
+    "id": "no-lofotodden-nasjonalpark",
     "name": "Lofotodden nasjonalpark",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 67.976635,
     "longitude": 12.97056,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-237",
+    "id": "no-anderdalen-national-park",
     "name": "Ånderdalen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 69.207934,
     "longitude": 17.248183,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-238",
+    "id": "no-vre-dividal-national-park",
     "name": "Øvre Dividal National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 68.734881,
     "longitude": 19.961287,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-239",
+    "id": "no-rago-national-park",
     "name": "Rago National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 67.43851,
     "longitude": 16.005676,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-240",
+    "id": "no-sjunkhatten-national-park",
     "name": "Sjunkhatten National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 67.407054,
     "longitude": 15.174707,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-241",
+    "id": "no-saltfjellet-svartisen-national-park",
     "name": "Saltfjellet–Svartisen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 66.648363,
     "longitude": 14.538544,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-242",
+    "id": "no-hardangervidda-national-park",
     "name": "Hardangervidda National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 60.154284,
     "longitude": 7.443046,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-243",
+    "id": "no-folgefonna-national-park",
     "name": "Folgefonna National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 60.01486,
     "longitude": 6.297915,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-244",
+    "id": "no-nordenskj-ld-land-national-park",
     "name": "Nordenskjøld Land National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 77.909104,
     "longitude": 15.119546,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-245",
+    "id": "no-rondane-national-park",
     "name": "Rondane National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 61.931516,
     "longitude": 9.788881,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-246",
+    "id": "no-varanger-national-park",
     "name": "Varanger National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 70.414114,
     "longitude": 29.928262,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-247",
+    "id": "no-reisa-national-park",
     "name": "Reisa National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 69.402365,
     "longitude": 21.717378,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-364",
+    "id": "no-raet-national-park",
     "name": "Raet National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 58.444634,
     "longitude": 8.856276,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-365",
+    "id": "no-jomfruland-national-park",
     "name": "Jomfruland National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 58.874982,
     "longitude": 9.606327,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-366",
+    "id": "no-f-rder-national-park",
     "name": "Færder National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 59.058381,
     "longitude": 10.406694,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-367",
+    "id": "no-ytre-hvaler-national-park",
     "name": "Ytre Hvaler National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 59.031444,
     "longitude": 10.857879,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-368",
+    "id": "no-hallingskarvet-national-park",
     "name": "Hallingskarvet National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 60.614444,
     "longitude": 7.7378,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-369",
+    "id": "no-langsua-national-park",
     "name": "Langsua National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 61.194591,
     "longitude": 9.814675,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-370",
+    "id": "no-breheimen-national-park",
     "name": "Breheimen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 61.803701,
     "longitude": 7.858495,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-371",
+    "id": "no-gutulia-nasjonalpark",
     "name": "Gutulia Nasjonalpark",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 62.019201,
     "longitude": 12.133649,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-372",
+    "id": "no-femundsmarka-national-park",
     "name": "Femundsmarka National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 62.319325,
     "longitude": 12.151693,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-373",
+    "id": "no-dovre-national-park",
     "name": "Dovre National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 62.091072,
     "longitude": 9.642129,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-374",
+    "id": "no-reinheimen-national-park",
     "name": "Reinheimen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 62.010055,
     "longitude": 7.866649,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-375",
+    "id": "no-dovrefjell-sunndalsfjella-national-park",
     "name": "Dovrefjell–Sunndalsfjella National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 62.221391,
     "longitude": 9.545706,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-376",
+    "id": "no-forollhogna-national-park",
     "name": "Forollhogna National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 62.606612,
     "longitude": 10.704803,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-377",
+    "id": "no-skarvan-and-roltdalen-national-park",
     "name": "Skarvan and Roltdalen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 63.232883,
     "longitude": 11.517244,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-378",
+    "id": "no-blafjella-skj-kerfjella-nasjonalpark",
     "name": "Blåfjella-Skjækerfjella Nasjonalpark",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 64.427854,
     "longitude": 12.478409,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-379",
+    "id": "no-lierne-nasjonalpark-lijren-vaarjelimmiedajve",
     "name": "Lierne nasjonalpark / Lijren vaarjelimmiedajve",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 64.327424,
     "longitude": 13.967084,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-380",
+    "id": "no-b-rgefjell-byrkije-nasjonalpark",
     "name": "Børgefjell/Byrkije nasjonalpark",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 65.19623,
     "longitude": 13.946758,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-381",
+    "id": "no-lomsdal-visten-national-park",
     "name": "Lomsdal–Visten National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 65.443555,
     "longitude": 12.9728,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-382",
+    "id": "no-lahko-national-park",
     "name": "Láhko National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 66.829868,
     "longitude": 14.269809,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-383",
+    "id": "no-junkerdal-national-park",
     "name": "Junkerdal National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 66.921193,
     "longitude": 15.745301,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-384",
+    "id": "no-m-ysalen-national-park",
     "name": "Møysalen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 68.503238,
     "longitude": 15.489665,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-385",
+    "id": "no-rohkunborri-national-park",
     "name": "Rohkunborri National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 68.547733,
     "longitude": 18.794318,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-386",
+    "id": "no-vre-anarjohka-nasjonalpark",
     "name": "Øvre Anárjohka nasjonalpark",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 68.767119,
     "longitude": 24.68879,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-387",
+    "id": "no-vre-pasvik-nasjonalpark",
     "name": "Øvre Pasvik nasjonalpark",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 69.149935,
     "longitude": 29.231599,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-388",
+    "id": "no-stabbursdalen-national-park",
     "name": "Stabbursdalen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 70.179356,
     "longitude": 24.909608,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-389",
+    "id": "no-seiland-national-park",
     "name": "Seiland National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 70.38909,
     "longitude": 23.308438,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-390",
+    "id": "no-south-spitsbergen-national-park",
     "name": "South Spitsbergen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 77.26259,
     "longitude": 16.073784,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-391",
+    "id": "no-forlandet-national-park",
     "name": "Forlandet National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 78.55945,
     "longitude": 11.161401,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-392",
+    "id": "no-northwest-spitsbergen-national-park",
     "name": "Northwest Spitsbergen National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 79.424026,
     "longitude": 12.003269,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-393",
+    "id": "no-sassen-bunsow-land-national-park",
     "name": "Sassen-Bünsow Land National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 78.445724,
     "longitude": 17.617952,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-394",
+    "id": "no-indre-wijdefjorden-national-park",
     "name": "Indre Wijdefjorden National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 79.199041,
     "longitude": 15.494585,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-395",
+    "id": "no-nordre-isfjorden-national-park",
     "name": "Nordre Isfjorden National Park",
-    "country": "NO",
+    "country": "Norway",
     "code": "NO",
     "latitude": 78.399899,
     "longitude": 14.383354,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

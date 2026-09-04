@@ -706,6 +706,36 @@ input::placeholder {
   color: var(--muted);
   font-size: 11px;
 }
+.park-website {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 5px;
+  padding: 8px 10px;
+  border: 1px solid var(--green);
+  color: var(--green);
+  font:
+    10px "DM Mono",
+    monospace;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease;
+}
+.park-website span {
+  font-size: 13px;
+  line-height: 0.8;
+}
+.park-website:hover,
+.park-website:focus-visible {
+  border-color: var(--orange);
+  color: var(--orange);
+  background: #f9e9df;
+  outline: none;
+}
 .park-facts {
   display: flex;
   gap: 48px;

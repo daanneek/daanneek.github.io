@@ -1,182 +1,153 @@
 [
   {
-    "id": "google-earth-012",
+    "id": "gb-lake-district-national-park",
     "name": "Lake District National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 54.467869,
     "longitude": -3.070425,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.lakedistrict.gov.uk/"
   },
   {
-    "id": "google-earth-013",
+    "id": "gb-northumberland-national-park",
     "name": "Northumberland National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 55.281444,
     "longitude": -2.226745,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.northumberlandnationalpark.org.uk/"
   },
   {
-    "id": "google-earth-014",
+    "id": "gb-cairngorms-national-park",
     "name": "Cairngorms National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 57.049219,
     "longitude": -3.561566,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.cairngorms.co.uk/"
   },
   {
-    "id": "google-earth-015",
+    "id": "gb-loch-lomond-and-the-trossachs-national-park",
     "name": "Loch Lomond & The Trossachs National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 56.010169,
     "longitude": -4.584202,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.lochlomond-trossachs.org/"
   },
   {
-    "id": "google-earth-016",
+    "id": "gb-eryri-national-park-snowdonia",
     "name": "Eryri National Park (Snowdonia)",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 52.900552,
     "longitude": -3.896338,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://eryri.gov.wales/"
   },
   {
-    "id": "google-earth-017",
+    "id": "gb-peak-district-national-park",
     "name": "Peak District National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 53.29916,
     "longitude": -1.801692,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.peakdistrict.gov.uk/"
   },
   {
-    "id": "google-earth-018",
+    "id": "gb-yorkshire-dales-national-park",
     "name": "Yorkshire Dales National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 54.26088,
     "longitude": -2.219675,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.yorkshiredales.org.uk/"
   },
   {
-    "id": "google-earth-019",
+    "id": "gb-north-york-moors-national-park",
     "name": "North York Moors National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 54.374848,
     "longitude": -0.882748,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.northyorkmoors.org.uk/"
   },
   {
-    "id": "google-earth-020",
+    "id": "gb-bannau-brycheiniog-national-park-brecon-beacons",
     "name": "Bannau Brycheiniog National Park (Brecon Beacons)",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 51.863197,
     "longitude": -3.42754,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.bannau.wales/"
   },
   {
-    "id": "google-earth-021",
+    "id": "gb-pembrokeshire-coast-national-park",
     "name": "Pembrokeshire Coast National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 51.812296,
     "longitude": -5.092491,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.pembrokeshirecoast.wales/"
   },
   {
-    "id": "google-earth-022",
+    "id": "gb-exmoor-national-park",
     "name": "Exmoor National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 51.134614,
     "longitude": -3.646235,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.exmoor-nationalpark.gov.uk/"
   },
   {
-    "id": "google-earth-023",
+    "id": "gb-dartmoor-national-park",
     "name": "Dartmoor National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 50.571886,
     "longitude": -3.920688,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.dartmoor.gov.uk/"
   },
   {
-    "id": "google-earth-024",
+    "id": "gb-south-downs-national-park",
     "name": "South Downs National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 50.951794,
     "longitude": -0.663294,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.southdowns.gov.uk/"
   },
   {
-    "id": "google-earth-025",
+    "id": "gb-new-forest-national-park",
     "name": "New Forest National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 50.85715,
     "longitude": -1.593988,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.newforestnpa.gov.uk/"
   },
   {
-    "id": "google-earth-026",
+    "id": "gb-the-broads-national-park",
     "name": "The Broads National Park",
-    "country": "GB",
+    "country": "United Kingdom",
     "code": "GB",
     "latitude": 52.617194,
     "longitude": 1.599426,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.broads-authority.gov.uk/"
   }
 ]
+

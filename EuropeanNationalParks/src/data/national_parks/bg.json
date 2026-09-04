@@ -1,38 +1,32 @@
 [
   {
-    "id": "google-earth-067",
+    "id": "bg-rila-national-park",
     "name": "Rila National Park",
-    "country": "BG",
+    "country": "Bulgaria",
     "code": "BG",
     "latitude": 42.144337,
     "longitude": 23.524767,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-068",
+    "id": "bg-central-balkan-national-park",
     "name": "Central Balkan National Park",
-    "country": "BG",
+    "country": "Bulgaria",
     "code": "BG",
     "latitude": 42.711214,
     "longitude": 24.761218,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-069",
+    "id": "bg-pirin-national-park",
     "name": "Pirin National Park",
-    "country": "BG",
+    "country": "Bulgaria",
     "code": "BG",
     "latitude": 41.724546,
     "longitude": 23.41481,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

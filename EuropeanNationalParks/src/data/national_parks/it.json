@@ -1,302 +1,252 @@
 [
   {
-    "id": "google-earth-032",
+    "id": "it-parco-nazionale-delle-dolomiti-bellunesi",
     "name": "Parco Nazionale delle Dolomiti Bellunesi",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 46.169919,
     "longitude": 12.036645,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-041",
+    "id": "it-national-park-of-abruzzo",
     "name": "National Park of Abruzzo",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 41.808807,
     "longitude": 13.790082,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-042",
+    "id": "it-parco-nazionale-gran-paradiso",
     "name": "Parco Nazionale Gran Paradiso",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 45.522028,
     "longitude": 7.324484,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-054",
+    "id": "it-parco-nazionale-dell-arcipelago-di-la-maddalena",
     "name": "Parco Nazionale dell'Arcipelago di La Maddalena",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 41.23951,
     "longitude": 9.42838,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-055",
+    "id": "it-parco-nazionale-del-golfo-di-orosei-e-del-gennargentu",
     "name": "Parco Nazionale del Golfo di Orosei e del Gennargentu",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 40.072866,
     "longitude": 9.385124,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-056",
+    "id": "it-parco-nazionale-dei-monti-sibillini",
     "name": "Parco Nazionale dei Monti Sibillini",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 42.907839,
     "longitude": 13.220183,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-090",
+    "id": "it-stelvio-national-park",
     "name": "Stelvio National Park",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 46.455632,
     "longitude": 10.533914,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-203",
+    "id": "it-vesuvius-national-park",
     "name": "Vesuvius National Park",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 40.828171,
     "longitude": 14.425853,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-204",
+    "id": "it-parco-nazionale-del-cilento-vallo-di-diano-e-alburni",
     "name": "Parco Nazionale del Cilento, Vallo di Diano e Alburni",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 40.288587,
     "longitude": 15.360849,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-205",
+    "id": "it-parco-nazionale-del-pollino",
     "name": "Parco Nazionale del Pollino",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 39.94133,
     "longitude": 16.122265,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-206",
+    "id": "it-parco-nazionale-del-gargano",
     "name": "Parco Nazionale del Gargano",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 41.781708,
     "longitude": 15.851642,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-207",
+    "id": "it-parco-nazionale-del-gran-sasso-e-monti-della-laga",
     "name": "Parco Nazionale del Gran Sasso e Monti della Laga",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 42.490648,
     "longitude": 13.497426,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-208",
+    "id": "it-parco-nazionale-dell-arcipelago-toscano",
     "name": "Parco Nazionale dell'Arcipelago Toscano",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 42.824985,
     "longitude": 10.268673,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-209",
+    "id": "it-parco-nazionale-dell-appennino-tosco-emiliano",
     "name": "Parco Nazionale dell'Appennino Tosco-Emiliano",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 44.384176,
     "longitude": 10.10312,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-210",
+    "id": "it-asinara-national-park",
     "name": "Asinara National Park",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 41.064376,
     "longitude": 8.274076,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-234",
+    "id": "it-parco-nazionale-delle-cinque-terre",
     "name": "Parco Nazionale delle Cinque Terre",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 44.128109,
     "longitude": 9.712391,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-306",
+    "id": "it-aspromonte-national-park",
     "name": "Aspromonte National Park",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 38.163136,
     "longitude": 15.948358,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-307",
+    "id": "it-sila-national-park",
     "name": "Sila National Park",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 39.276136,
     "longitude": 16.579186,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-308",
+    "id": "it-parco-nazionale-dell-appennino-lucano-val-d-agri-lagonegrese",
     "name": "Parco Nazionale dell'Appennino Lucano Val d'Agri - Lagonegrese",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 40.358549,
     "longitude": 15.872586,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-309",
+    "id": "it-alta-murgia-national-park",
     "name": "Alta Murgia National Park",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 40.999984,
     "longitude": 16.369927,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-310",
+    "id": "it-parco-nazionale-della-maiella",
     "name": "Parco Nazionale della Maiella",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 42.076274,
     "longitude": 14.089175,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-311",
+    "id": "it-parco-nazionale-delle-foreste-casentinesi-monte-falterona-e-campigna",
     "name": "Parco Nazionale delle Foreste Casentinesi, Monte Falterona e Campigna",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 43.956885,
     "longitude": 11.735263,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-312",
+    "id": "it-parco-nazionale-della-val-grande",
     "name": "Parco Nazionale della Val Grande",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 46.038762,
     "longitude": 8.463083,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-313",
+    "id": "it-parco-nazionale-del-circeo",
     "name": "Parco Nazionale del Circeo",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 41.397774,
     "longitude": 12.916487,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-314",
+    "id": "it-pantelleria-island-national-park",
     "name": "Pantelleria Island National Park",
-    "country": "IT",
+    "country": "Italy",
     "code": "IT",
     "latitude": 36.779891,
     "longitude": 12.007364,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

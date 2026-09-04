@@ -1,50 +1,42 @@
 [
   {
-    "id": "google-earth-260",
+    "id": "by-belavezhskaya-pushcha-national-park",
     "name": "Belavezhskaya Pushcha National Park",
-    "country": "BY",
+    "country": "Belarus",
     "code": "BY",
     "latitude": 52.56928,
     "longitude": 23.802966,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-261",
+    "id": "by-braslau-lakes-national-park",
     "name": "Braslau Lakes National Park",
-    "country": "BY",
+    "country": "Belarus",
     "code": "BY",
     "latitude": 55.644909,
     "longitude": 27.016575,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-262",
+    "id": "by-prypyatski-national-park",
     "name": "Prypyatski National Park",
-    "country": "BY",
+    "country": "Belarus",
     "code": "BY",
     "latitude": 52.139285,
     "longitude": 26.888713,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-263",
+    "id": "by-narachanski-national-park",
     "name": "Narachanski National Park",
-    "country": "BY",
+    "country": "Belarus",
     "code": "BY",
     "latitude": 54.909534,
     "longitude": 26.706591,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

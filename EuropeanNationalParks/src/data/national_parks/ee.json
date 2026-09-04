@@ -1,74 +1,62 @@
 [
   {
-    "id": "google-earth-096",
+    "id": "ee-lahemaa-national-park",
     "name": "Lahemaa National Park",
-    "country": "EE",
+    "country": "Estonia",
     "code": "EE",
     "latitude": 59.567662,
     "longitude": 25.781019,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-270",
+    "id": "ee-matsalu-national-park",
     "name": "Matsalu National Park",
-    "country": "EE",
+    "country": "Estonia",
     "code": "EE",
     "latitude": 58.756222,
     "longitude": 23.48276,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-271",
+    "id": "ee-vilsandi-national-park",
     "name": "Vilsandi National Park",
-    "country": "EE",
+    "country": "Estonia",
     "code": "EE",
     "latitude": 58.35832,
     "longitude": 21.856905,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-272",
+    "id": "ee-karula-national-park",
     "name": "Karula National Park",
-    "country": "EE",
+    "country": "Estonia",
     "code": "EE",
     "latitude": 57.701925,
     "longitude": 26.491525,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-273",
+    "id": "ee-soomaa-national-park",
     "name": "Soomaa National Park",
-    "country": "EE",
+    "country": "Estonia",
     "code": "EE",
     "latitude": 58.488793,
     "longitude": 24.982437,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-274",
+    "id": "ee-alutaguse-national-park",
     "name": "Alutaguse National Park",
-    "country": "EE",
+    "country": "Estonia",
     "code": "EE",
     "latitude": 59.104681,
     "longitude": 27.457945,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

@@ -1,14 +1,12 @@
 [
   {
-    "id": "google-earth-258",
+    "id": "mt-park-nazzjonali-ta-qali",
     "name": "Park Nazzjonali Ta' Qali",
-    "country": "MT",
+    "country": "Malta",
     "code": "MT",
     "latitude": 35.892409,
     "longitude": 14.42066,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

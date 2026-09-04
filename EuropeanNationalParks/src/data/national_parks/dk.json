@@ -1,62 +1,52 @@
 [
   {
-    "id": "google-earth-100",
+    "id": "dk-kongernes-nordsj-lland",
     "name": "Kongernes Nordsjælland",
-    "country": "DK",
+    "country": "Denmark",
     "code": "DK",
     "latitude": 56.046298,
     "longitude": 12.377112,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-101",
+    "id": "dk-wadden-sea-national-park",
     "name": "Wadden Sea National Park",
-    "country": "DK",
+    "country": "Denmark",
     "code": "DK",
     "latitude": 55.241032,
     "longitude": 8.497208,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-223",
+    "id": "dk-nationalpark-mols-bjerge",
     "name": "Nationalpark Mols Bjerge",
-    "country": "DK",
+    "country": "Denmark",
     "code": "DK",
     "latitude": 56.283449,
     "longitude": 10.479454,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-266",
+    "id": "dk-skjoldungernes-land-national-park",
     "name": "Skjoldungernes Land National Park",
-    "country": "DK",
+    "country": "Denmark",
     "code": "DK",
     "latitude": 55.664652,
     "longitude": 11.998783,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-488",
+    "id": "dk-nationalpark-thy-visitor-centre-stenbjerg-landingsplads",
     "name": "Nationalpark Thy, visitor centre Stenbjerg Landingsplads",
-    "country": "DK",
+    "country": "Denmark",
     "code": "DK",
     "latitude": 56.929808,
     "longitude": 8.33822,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

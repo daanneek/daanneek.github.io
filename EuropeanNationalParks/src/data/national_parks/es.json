@@ -1,194 +1,162 @@
 [
   {
-    "id": "google-earth-035",
+    "id": "es-picos-de-europa-national-park",
     "name": "Picos de Europa National Park",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 43.186968,
     "longitude": -4.871243,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-053",
+    "id": "es-sierra-nevada-national-park",
     "name": "Sierra Nevada National Park",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 37.094775,
     "longitude": -3.400636,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-075",
+    "id": "es-ordesa-y-monte-perdido-national-park",
     "name": "Ordesa y Monte Perdido National Park",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 42.64687,
     "longitude": 0.0349,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-076",
+    "id": "es-parque-nacional-del-teide",
     "name": "Parque Nacional del Teide",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 28.253879,
     "longitude": -16.618268,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-077",
+    "id": "es-parque-nacional-de-cabaneros",
     "name": "Parque Nacional de Cabañeros",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 39.400741,
     "longitude": -4.493183,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-079",
+    "id": "es-timanfaya-national-park",
     "name": "Timanfaya National Park",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 29.01575,
     "longitude": -13.782924,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-169",
+    "id": "es-donana-national-park",
     "name": "Doñana National Park",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 37.042729,
     "longitude": -6.434447,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-170",
+    "id": "es-aiguestortes-i-estany-de-sant-maurici-national-park",
     "name": "Aigüestortes i Estany de Sant Maurici National Park",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 42.566849,
     "longitude": 0.92475,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-171",
+    "id": "es-parque-nacional-sierra-de-las-nieves",
     "name": "Parque Nacional Sierra de las Nieves",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 36.698977,
     "longitude": -4.997553,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-172",
+    "id": "es-cabrera-archipelago-maritime-terrestrial-national-park",
     "name": "Cabrera Archipelago Maritime-Terrestrial National Park",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 39.141002,
     "longitude": 2.944407,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-173",
+    "id": "es-sierra-de-guadarrama-national-park",
     "name": "Sierra de Guadarrama National Park",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 40.847957,
     "longitude": -3.946476,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-174",
+    "id": "es-parque-nacional-de-monfrague",
     "name": "Parque Nacional de Monfragüe",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 39.813014,
     "longitude": -5.937073,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-175",
+    "id": "es-parque-nacional-maritimo-terrestre-de-las-islas-atlanticas-de-galicia",
     "name": "Parque Nacional Marítimo-Terrestre de las Islas Atlánticas de Galicia",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 42.377719,
     "longitude": -8.936686,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-176",
+    "id": "es-tablas-daimiel",
     "name": "Tablas Daimiel",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 39.138028,
     "longitude": -3.697037,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-177",
+    "id": "es-caldera-de-taburiente-national-park",
     "name": "Caldera de Taburiente National Park",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 28.72949,
     "longitude": -17.870235,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-178",
+    "id": "es-parque-nacional-de-garajonay",
     "name": "Parque Nacional de Garajonay",
-    "country": "ES",
+    "country": "Spain",
     "code": "ES",
     "latitude": 28.128109,
     "longitude": -17.237483,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

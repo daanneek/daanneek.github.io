@@ -1,194 +1,162 @@
 [
   {
-    "id": "google-earth-001",
+    "id": "de-nationalpark-eifel",
     "name": "Nationalpark Eifel",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 50.581538,
     "longitude": 6.423238,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-008",
+    "id": "de-nationalpark-schwarzwald",
     "name": "Nationalpark Schwarzwald",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 48.561004,
     "longitude": 8.226677,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-009",
+    "id": "de-hunsruck-hochwald-national-park",
     "name": "Hunsrück-Hochwald National Park",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 49.693593,
     "longitude": 7.067484,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-010",
+    "id": "de-nationalpark-berchtesgaden",
     "name": "Nationalpark Berchtesgaden",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 47.552893,
     "longitude": 12.917668,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-011",
+    "id": "de-nationalpark-bayerischer-wald",
     "name": "Nationalpark Bayerischer Wald",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 48.988001,
     "longitude": 13.384103,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-045",
+    "id": "de-saxon-switzerland-national-park",
     "name": "Saxon Switzerland National Park",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 50.914524,
     "longitude": 14.281172,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-078",
+    "id": "de-harz-national-park",
     "name": "Harz National Park",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 51.779866,
     "longitude": 10.523191,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-179",
+    "id": "de-nationalpark-schleswig-holsteinisches-wattenmeer",
     "name": "Nationalpark Schleswig-Holsteinisches Wattenmeer",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 54.483774,
     "longitude": 8.446826,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-180",
+    "id": "de-hamburgisches-wattenmeer-national-park",
     "name": "Hamburgisches Wattenmeer National Park",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 53.907693,
     "longitude": 8.565494,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-181",
+    "id": "de-niedersachsisches-wattenmeer-national-park",
     "name": "Niedersächsisches Wattenmeer National Park",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 53.285503,
     "longitude": 7.223732,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-182",
+    "id": "de-hainich-national-park",
     "name": "Hainich National Park",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 51.084285,
     "longitude": 10.438122,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-183",
+    "id": "de-kellerwald-edersee-national-park",
     "name": "Kellerwald-Edersee National Park",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 51.149758,
     "longitude": 8.973736,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-184",
+    "id": "de-jasmund-national-park",
     "name": "Jasmund National Park",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 54.551059,
     "longitude": 13.647866,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-185",
+    "id": "de-nationalpark-vorpommersche-boddenlandschaft",
     "name": "Nationalpark Vorpommersche Boddenlandschaft",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 54.393034,
     "longitude": 12.527522,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-186",
+    "id": "de-unteres-odertal-national-park",
     "name": "Unteres Odertal National Park",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 53.034876,
     "longitude": 14.274666,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-187",
+    "id": "de-muritz-nationalpark",
     "name": "Müritz Nationalpark",
-    "country": "DE",
+    "country": "Germany",
     "code": "DE",
     "latitude": 53.31103,
     "longitude": 13.279927,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

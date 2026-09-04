@@ -1,362 +1,302 @@
 [
   {
-    "id": "google-earth-211",
+    "id": "se-sarek-national-park",
     "name": "Sarek National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 67.283333,
     "longitude": 17.7,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-212",
+    "id": "se-padjelanta-national-park",
     "name": "Padjelanta National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 67.373681,
     "longitude": 16.713291,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-213",
+    "id": "se-stora-sjofallets-stuor-muorkke-national-park",
     "name": "Stora Sjöfallets / Stuor Muorkke National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 67.560248,
     "longitude": 18.037654,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-214",
+    "id": "se-abisko-national-park",
     "name": "Abisko National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 68.318766,
     "longitude": 18.685017,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-215",
+    "id": "se-gotska-sandon-national-park",
     "name": "Gotska Sandön National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 58.349953,
     "longitude": 19.217702,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-216",
+    "id": "se-tyresta-national-park-and-nature-reserve",
     "name": "Tyresta National Park and Nature Reserve",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 59.18431,
     "longitude": 18.281183,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-217",
+    "id": "se-fulufjallet-national-park",
     "name": "Fulufjället National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 61.54729,
     "longitude": 12.752978,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-218",
+    "id": "se-sonfjallet-national-park",
     "name": "Sonfjället National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 62.3,
     "longitude": 13.583333,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-219",
+    "id": "se-vadvetjakka-national-park",
     "name": "Vadvetjåkka National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 68.539892,
     "longitude": 18.434521,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-220",
+    "id": "se-muddus-national-park",
     "name": "Muddus National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 66.929677,
     "longitude": 20.220481,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-221",
+    "id": "se-tiveden-national-park",
     "name": "Tiveden National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 58.717109,
     "longitude": 14.606503,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-222",
+    "id": "se-stenshuvud-s-national-park",
     "name": "Stenshuvud's National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 55.656184,
     "longitude": 14.268711,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-315",
+    "id": "se-angso-national-park",
     "name": "Ängsö National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 59.617306,
     "longitude": 18.760807,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-316",
+    "id": "se-asnens-nationalpark",
     "name": "Åsnens Nationalpark",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 56.616667,
     "longitude": 14.65,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-317",
+    "id": "se-bjornlandets-nationalpark",
     "name": "Björnlandets Nationalpark",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 63.971201,
     "longitude": 18.055395,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-318",
+    "id": "se-bla-jungfrun-nationalpark",
     "name": "Blå Jungfrun nationalpark",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 57.253776,
     "longitude": 16.793733,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-319",
+    "id": "se-dalby-soderskog-national-park",
     "name": "Dalby Söderskog National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 55.672684,
     "longitude": 13.33023,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-320",
+    "id": "se-djuro-national-park",
     "name": "Djurö National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 58.86413,
     "longitude": 13.468351,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-321",
+    "id": "se-farnebofjarden-national-park",
     "name": "Färnebofjärden National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 60.269924,
     "longitude": 16.908702,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-322",
+    "id": "se-garphyttans-nationalpark",
     "name": "Garphyttans Nationalpark",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 59.278503,
     "longitude": 14.883403,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-323",
+    "id": "se-hamra-national-park",
     "name": "Hamra National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 61.763975,
     "longitude": 14.757578,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-324",
+    "id": "se-haparanda-archipelago-national-park",
     "name": "Haparanda Archipelago National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 65.577295,
     "longitude": 23.748206,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-325",
+    "id": "se-kosterhavet-national-park",
     "name": "Kosterhavet National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 58.837107,
     "longitude": 11.03445,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-326",
+    "id": "se-norra-kvills-nationalpark",
     "name": "Norra Kvills nationalpark",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 57.76295,
     "longitude": 15.59382,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-327",
+    "id": "se-pieljekaise-national-park",
     "name": "Pieljekaise National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 66.350566,
     "longitude": 16.742727,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-328",
+    "id": "se-skuleskogen-national-park",
     "name": "Skuleskogen National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 63.119491,
     "longitude": 18.494087,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-329",
+    "id": "se-soderasen-national-park",
     "name": "Söderåsen National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 56.038788,
     "longitude": 13.25153,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-330",
+    "id": "se-greater-mosse-national-park",
     "name": "Greater Mosse National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 57.299998,
     "longitude": 13.929821,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-331",
+    "id": "se-tofsingdalen-national-park",
     "name": "Töfsingdalen National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 62.166977,
     "longitude": 12.450444,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-332",
+    "id": "se-tresticklan-national-park",
     "name": "Tresticklan National Park",
-    "country": "SE",
+    "country": "Sweden",
     "code": "SE",
     "latitude": 59.043919,
     "longitude": 11.795048,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

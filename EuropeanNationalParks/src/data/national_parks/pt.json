@@ -1,14 +1,12 @@
 [
   {
-    "id": "google-earth-089",
+    "id": "pt-parque-nacional-peneda-geres",
     "name": "Parque Nacional Peneda-Gerês",
-    "country": "PT",
+    "country": "Portugal",
     "code": "PT",
     "latitude": 41.728217,
     "longitude": -8.162632,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

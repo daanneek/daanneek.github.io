@@ -1,278 +1,232 @@
 [
   {
-    "id": "google-earth-048",
+    "id": "pl-tatra-national-park-poland",
     "name": "Tatra National Park, Poland",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 49.271441,
     "longitude": 19.982744,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-198",
+    "id": "pl-bieszczady-national-park",
     "name": "Bieszczady National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 49.141177,
     "longitude": 22.590435,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-199",
+    "id": "pl-pieniny-national-park",
     "name": "Pieniny National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 49.419199,
     "longitude": 20.386342,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-200",
+    "id": "pl-babia-gora-national-park",
     "name": "Babia Góra National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 49.593742,
     "longitude": 19.531196,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-201",
+    "id": "pl-bia-owieza-national-park",
     "name": "Białowieża National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 52.703323,
     "longitude": 23.846854,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-202",
+    "id": "pl-s-owinski-national-park",
     "name": "Słowiński National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 54.700173,
     "longitude": 17.316931,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-289",
+    "id": "pl-biebrzanski-park-narodowy",
     "name": "Biebrzański Park Narodowy",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 53.495788,
     "longitude": 22.752013,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-290",
+    "id": "pl-wigierski-park-narodowy",
     "name": "Wigierski Park Narodowy",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 54.084282,
     "longitude": 23.009834,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-291",
+    "id": "pl-wolin-national-park",
     "name": "Wolin National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 53.966128,
     "longitude": 14.523244,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-292",
+    "id": "pl-warta-mouth-national-park",
     "name": "Warta Mouth National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 52.568932,
     "longitude": 14.651084,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-293",
+    "id": "pl-park-narodowy-bory-tucholskie",
     "name": "Park Narodowy Bory Tucholskie",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 53.81517,
     "longitude": 17.564826,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-294",
+    "id": "pl-drawno-national-park",
     "name": "Drawno National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 53.213581,
     "longitude": 15.742052,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-295",
+    "id": "pl-greater-poland-national-park",
     "name": "Greater Poland National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 52.268706,
     "longitude": 16.797277,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-296",
+    "id": "pl-kampinos-national-park",
     "name": "Kampinos National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 52.320009,
     "longitude": 20.644055,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-297",
+    "id": "pl-swietokrzyski-national-park",
     "name": "Swietokrzyski National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 50.896028,
     "longitude": 20.914549,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-298",
+    "id": "pl-karkonosze-national-park",
     "name": "Karkonosze National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 50.767503,
     "longitude": 15.728373,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-299",
+    "id": "pl-sto-owe-mountains-national-park",
     "name": "Stołowe Mountains National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 50.460124,
     "longitude": 16.395856,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-300",
+    "id": "pl-gorczanski-park-narodowy",
     "name": "Gorczański Park Narodowy",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 49.550354,
     "longitude": 20.150933,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-301",
+    "id": "pl-ojcowski-national-park",
     "name": "Ojcowski National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 50.207052,
     "longitude": 19.817876,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-302",
+    "id": "pl-magura-national-park",
     "name": "Magura National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 49.509253,
     "longitude": 21.469835,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-303",
+    "id": "pl-roztocze-national-park",
     "name": "Roztocze National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 50.60014,
     "longitude": 22.962861,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-304",
+    "id": "pl-polesie-national-park",
     "name": "Polesie National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 51.431387,
     "longitude": 23.118764,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-305",
+    "id": "pl-narew-national-park",
     "name": "Narew National Park",
-    "country": "PL",
+    "country": "Poland",
     "code": "PL",
     "latitude": 53.072765,
     "longitude": 22.868615,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

@@ -1,14 +1,12 @@
 [
   {
-    "id": "google-earth-080",
+    "id": "md-orhei-national-park",
     "name": "Orhei National Park",
-    "country": "MD",
+    "country": "Moldova",
     "code": "MD",
     "latitude": 47.391936,
     "longitude": 28.833932,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

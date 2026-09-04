@@ -1,98 +1,82 @@
 [
   {
-    "id": "google-earth-033",
+    "id": "hr-krka-national-park",
     "name": "Krka National Park",
-    "country": "HR",
+    "country": "Croatia",
     "code": "HR",
     "latitude": 43.866602,
     "longitude": 15.972484,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-034",
+    "id": "hr-mljet-national-park",
     "name": "Mljet National Park",
-    "country": "HR",
+    "country": "Croatia",
     "code": "HR",
     "latitude": 42.773947,
     "longitude": 17.408538,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-049",
+    "id": "hr-plitvice-lakes-national-park",
     "name": "Plitvice Lakes National Park",
-    "country": "HR",
+    "country": "Croatia",
     "code": "HR",
     "latitude": 44.865397,
     "longitude": 15.582012,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-050",
+    "id": "hr-risnjak-national-park",
     "name": "Risnjak National Park",
-    "country": "HR",
+    "country": "Croatia",
     "code": "HR",
     "latitude": 45.418332,
     "longitude": 14.685276,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-057",
+    "id": "hr-paklenica-national-park",
     "name": "Paklenica National Park",
-    "country": "HR",
+    "country": "Croatia",
     "code": "HR",
     "latitude": 44.34381,
     "longitude": 15.484047,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-110",
+    "id": "hr-northern-velebit-national-park",
     "name": "Northern Velebit National Park",
-    "country": "HR",
+    "country": "Croatia",
     "code": "HR",
     "latitude": 44.765675,
     "longitude": 14.944074,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-111",
+    "id": "hr-national-park-kornati",
     "name": "National Park Kornati",
-    "country": "HR",
+    "country": "Croatia",
     "code": "HR",
     "latitude": 43.781556,
     "longitude": 15.352288,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-112",
+    "id": "hr-brijuni-national-park",
     "name": "Brijuni National Park",
-    "country": "HR",
+    "country": "Croatia",
     "code": "HR",
     "latitude": 44.914692,
     "longitude": 13.757567,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

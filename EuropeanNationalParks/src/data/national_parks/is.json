@@ -1,38 +1,32 @@
 [
   {
-    "id": "google-earth-091",
+    "id": "is-vatnajokull-national-park",
     "name": "Vatnajökull National Park",
-    "country": "IS",
+    "country": "Iceland",
     "code": "IS",
     "latitude": 64.7843,
     "longitude": -17.209108,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-092",
+    "id": "is-sn-fellsjokull-national-park",
     "name": "Snæfellsjökull National Park",
-    "country": "IS",
+    "country": "Iceland",
     "code": "IS",
     "latitude": 64.908341,
     "longitude": -23.908629,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-093",
+    "id": "is-thingvellir-national-park",
     "name": "Thingvellir National Park",
-    "country": "IS",
+    "country": "Iceland",
     "code": "IS",
     "latitude": 64.282172,
     "longitude": -21.076449,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

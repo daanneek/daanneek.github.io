@@ -1,314 +1,262 @@
 [
   {
-    "id": "google-earth-070",
+    "id": "gr-rodopi-mountain-range-national-park",
     "name": "Rodopi Mountain Range National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 41.470074,
     "longitude": 24.478856,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-073",
+    "id": "gr-national-park-of-tzoumerka-peristeri-and-arachthos-gorge",
     "name": "National Park of Tzoumerka, Peristeri & Arachthos Gorge",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 39.48786,
     "longitude": 21.199507,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-074",
+    "id": "gr-mount-olympus-national-park",
     "name": "Mount Olympus National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 40.067335,
     "longitude": 22.405305,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-146",
+    "id": "gr-samaria-gorge-national-park",
     "name": "Samaria Gorge National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 35.291559,
     "longitude": 23.959344,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-147",
+    "id": "gr-parnassos-national-park",
     "name": "Parnassos National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 38.529852,
     "longitude": 22.574822,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-148",
+    "id": "gr-national-park-of-parnitha",
     "name": "National Park of Parnitha",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 38.159983,
     "longitude": 23.719479,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-149",
+    "id": "gr-ainos-oros",
     "name": "Ainos Oros",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 38.136667,
     "longitude": 20.671389,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-150",
+    "id": "gr-mt-iti-national-park",
     "name": "Mt Iti National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 38.749371,
     "longitude": 22.377024,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-151",
+    "id": "gr-prespa-national-park",
     "name": "Prespa National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 40.7515,
     "longitude": 21.07721,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-152",
+    "id": "gr-kerkini-lake-national-park",
     "name": "Kerkini Lake National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 41.259262,
     "longitude": 23.140403,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-153",
+    "id": "gr-delta-nestos-national-park",
     "name": "Delta Nestos National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 41.00782,
     "longitude": 25.110836,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-154",
+    "id": "gr-pindos-national-park",
     "name": "Pindos National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 39.941268,
     "longitude": 20.950858,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-155",
+    "id": "gr-vikos-national-park",
     "name": "Vikos National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 39.981161,
     "longitude": 20.75023,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-156",
+    "id": "gr-sounion-national-park",
     "name": "Sounion National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 37.715929,
     "longitude": 24.019067,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-157",
+    "id": "gr-peripheral-zone-of-national-marine-park-of-zakynthos",
     "name": "Peripheral Zone of National Marine Park of Zakynthos",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 37.742534,
     "longitude": 20.912294,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-158",
+    "id": "gr-national-marine-park",
     "name": "National Marine Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 39.27052,
     "longitude": 23.979669,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-159",
+    "id": "gr-evros-delta-national-park",
     "name": "Evros Delta National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 40.808517,
     "longitude": 26.029567,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-160",
+    "id": "gr-national-forest-park-of-dadia-lefkimi-soufli",
     "name": "National Forest Park of Dadia - Lefkimi - Soufli",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 41.122558,
     "longitude": 26.227951,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-161",
+    "id": "gr-amvrakikos-wetlands-national-park",
     "name": "Amvrakikos Wetlands National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 39.070434,
     "longitude": 20.838599,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-162",
+    "id": "gr-axios-delta-national-park",
     "name": "Axios Delta National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 40.529725,
     "longitude": 22.682967,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-163",
+    "id": "gr-chelmos-national-park",
     "name": "Chelmos National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 37.98556,
     "longitude": 22.198394,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-164",
+    "id": "gr-national-park-of-eastern-macedonia-and-thrace",
     "name": "National Park of Eastern Macedonia and Thrace",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 40.847059,
     "longitude": 24.804057,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-165",
+    "id": "gr-national-park-of-lakes-koronia-volvi-and-the-macedonian-tempe",
     "name": "National Park of Lakes Koronia-Volvi and the Macedonian Tempe",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 40.656759,
     "longitude": 23.49809,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-166",
+    "id": "gr-kotychi-strofylia-wetlands-national-park",
     "name": "Kotychi-Strofylia Wetlands National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 38.145012,
     "longitude": 21.384494,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-167",
+    "id": "gr-missolonghi-aitoliko-lagoons",
     "name": "Missolonghi–Aitoliko Lagoons",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 38.3877,
     "longitude": 21.34056,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-168",
+    "id": "gr-schinias-national-park",
     "name": "Schinias National Park",
-    "country": "GR",
+    "country": "Greece",
     "code": "GR",
     "latitude": 38.153242,
     "longitude": 24.030961,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

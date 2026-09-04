@@ -1,110 +1,92 @@
 [
   {
-    "id": "google-earth-113",
+    "id": "sk-low-tatras-national-park",
     "name": "Low Tatras National Park",
-    "country": "SK",
+    "country": "Slovakia",
     "code": "SK",
     "latitude": 48.888969,
     "longitude": 19.229809,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-114",
+    "id": "sk-national-park-great-fatra",
     "name": "National Park Great Fatra",
-    "country": "SK",
+    "country": "Slovakia",
     "code": "SK",
     "latitude": 48.940048,
     "longitude": 19.087296,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-115",
+    "id": "sk-slovak-paradise-national-park",
     "name": "Slovak Paradise National Park",
-    "country": "SK",
+    "country": "Slovakia",
     "code": "SK",
     "latitude": 48.919798,
     "longitude": 20.385218,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-116",
+    "id": "sk-tatra-national-park",
     "name": "Tatra National Park",
-    "country": "SK",
+    "country": "Slovakia",
     "code": "SK",
     "latitude": 49.206546,
     "longitude": 19.933708,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-117",
+    "id": "sk-mala-fatra-national-park",
     "name": "Malá Fatra National Park",
-    "country": "SK",
+    "country": "Slovakia",
     "code": "SK",
     "latitude": 49.251216,
     "longitude": 19.061178,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-278",
+    "id": "sk-poloniny-national-park",
     "name": "Poloniny National Park",
-    "country": "SK",
+    "country": "Slovakia",
     "code": "SK",
     "latitude": 49.054412,
     "longitude": 22.409885,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-279",
+    "id": "sk-pieniny-national-park",
     "name": "Pieniny National Park",
-    "country": "SK",
+    "country": "Slovakia",
     "code": "SK",
     "latitude": 49.387282,
     "longitude": 20.506103,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-280",
+    "id": "sk-muran-plateau-national-park",
     "name": "Muran Plateau National Park",
-    "country": "SK",
+    "country": "Slovakia",
     "code": "SK",
     "latitude": 48.773922,
     "longitude": 20.033931,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-281",
+    "id": "sk-slovak-karst-national-park",
     "name": "Slovak Karst National Park",
-    "country": "SK",
+    "country": "Slovakia",
     "code": "SK",
     "latitude": 48.630902,
     "longitude": 20.497618,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

@@ -1,86 +1,72 @@
 [
   {
-    "id": "google-earth-002",
+    "id": "be-national-park-hoge-kempen",
     "name": "National Park Hoge Kempen",
-    "country": "BE",
+    "country": "Belgium",
     "code": "BE",
     "latitude": 50.992458,
     "longitude": 5.615112,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.nationaalparkhogekempen.be/"
   },
   {
-    "id": "google-earth-082",
+    "id": "be-nationaal-park-bosland",
     "name": "Nationaal Park Bosland",
-    "country": "BE",
+    "country": "Belgium",
     "code": "BE",
     "latitude": 51.162317,
     "longitude": 5.316873,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.nationaalparkbosland.be/"
   },
   {
-    "id": "google-earth-083",
+    "id": "be-nationaal-park-scheldevallei",
     "name": "Nationaal Park Scheldevallei",
-    "country": "BE",
+    "country": "Belgium",
     "code": "BE",
     "latitude": 51.110803,
     "longitude": 4.221458,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.nationaalparkscheldevallei.be/"
   },
   {
-    "id": "google-earth-084",
+    "id": "be-nationaal-park-brabantse-wouden",
     "name": "Nationaal Park Brabantse Wouden",
-    "country": "BE",
+    "country": "Belgium",
     "code": "BE",
     "latitude": 50.810863,
     "longitude": 4.662938,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.brabantsewouden.be/"
   },
   {
-    "id": "google-earth-085",
+    "id": "be-vallee-de-la-semois-national-park",
     "name": "Vallée de la Semois National Park",
-    "country": "BE",
+    "country": "Belgium",
     "code": "BE",
     "latitude": 49.903179,
     "longitude": 5.13373,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.semois-parcnational.be/en"
   },
   {
-    "id": "google-earth-086",
+    "id": "be-entre-sambre-et-meuse-national-park",
     "name": "Entre-Sambre-et-Meuse National Park",
-    "country": "BE",
+    "country": "Belgium",
     "code": "BE",
     "latitude": 50.073414,
     "longitude": 4.428946,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.parc-national-esem.be/en"
   },
   {
-    "id": "google-earth-254",
+    "id": "be-grenspark-kalmthoutse-heide",
     "name": "Grenspark Kalmthoutse Heide",
-    "country": "BE",
+    "country": "Belgium",
     "code": "BE",
     "latitude": 51.39959,
     "longitude": 4.407619,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://grensparkkalmthoutseheide.com"
   }
 ]

@@ -1,242 +1,202 @@
 [
   {
-    "id": "google-earth-188",
+    "id": "nl-nationaal-park-de-biesbosch",
     "name": "Nationaal Park De Biesbosch",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 51.751135,
     "longitude": 4.796987,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://np-debiesbosch.nl"
   },
   {
-    "id": "google-earth-189",
+    "id": "nl-oosterschelde-national-park",
     "name": "Oosterschelde National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 51.569722,
     "longitude": 3.94863,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.np-oosterschelde.nl"
   },
   {
-    "id": "google-earth-190",
+    "id": "nl-nationaal-park-duinen-van-texel",
     "name": "Nationaal Park Duinen van Texel",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 53.075229,
     "longitude": 4.743342,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.npduinenvantexel.nl"
   },
   {
-    "id": "google-earth-191",
+    "id": "nl-het-nationale-park-de-hoge-veluwe",
     "name": "Het Nationale Park De Hoge Veluwe",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 52.078716,
     "longitude": 5.832489,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://hogeveluwe.nl"
   },
   {
-    "id": "google-earth-192",
+    "id": "nl-nationaal-park-veluwezoom",
     "name": "Nationaal Park Veluwezoom",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 52.04831,
     "longitude": 6.019887,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.natuurmonumenten.nl/natuurgebieden/nationaal-park-veluwezoom"
   },
   {
-    "id": "google-earth-193",
+    "id": "nl-nationaal-park-weerribben-wieden",
     "name": "Nationaal Park Weerribben-Wieden",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 52.725612,
     "longitude": 6.028254,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.visitweerribbenwieden.com"
   },
   {
-    "id": "google-earth-194",
-    "name": "National Park De Maasduinen",
-    "country": "NL",
+    "id": "nl-nationaal-park-de-maasduinen",
+    "name": "Nationaal Park De Maasduinen",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 51.583111,
     "longitude": 6.09851,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-195",
+    "id": "nl-meinweg-national-park",
     "name": "Meinweg National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 51.156074,
     "longitude": 6.084749,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.natuurparkenlimburg.nl/np/de-maasduinen"
   },
   {
-    "id": "google-earth-196",
+    "id": "nl-zuid-kennemerland-national-park",
     "name": "Zuid-Kennemerland National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 52.396055,
     "longitude": 4.592128,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.np-zuidkennemerland.nl"
   },
   {
-    "id": "google-earth-197",
+    "id": "nl-the-loonse-and-drunense-duinen-national-park",
     "name": "The Loonse and Drunense Duinen National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 51.653375,
     "longitude": 5.131833,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.natuurmonumenten.nl/natuurgebieden/loonse-en-drunense-duinen"
   },
   {
-    "id": "google-earth-248",
+    "id": "nl-drents-friese-wold-national-park",
     "name": "Drents-Friese Wold National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 52.880008,
     "longitude": 6.310443,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.nationaalpark-drents-friese-wold.nl"
   },
   {
-    "id": "google-earth-249",
+    "id": "nl-utrechtse-heuvelrug-national-park",
     "name": "Utrechtse Heuvelrug National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 52.049531,
     "longitude": 5.353988,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.np-utrechtseheuvelrug.nl"
   },
   {
-    "id": "google-earth-250",
+    "id": "nl-nationaal-park-drentsche-aa",
     "name": "Nationaal Park Drentsche Aa",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 53.037593,
     "longitude": 6.650157,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.drentscheaa.nl"
   },
   {
-    "id": "google-earth-251",
+    "id": "nl-de-alde-feanen-national-park",
     "name": "De Alde Feanen National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 53.129715,
     "longitude": 5.93798,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.np-aldefeanen.nl"
   },
   {
-    "id": "google-earth-252",
+    "id": "nl-dwingelderveld-national-park",
     "name": "Dwingelderveld National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 52.808598,
     "longitude": 6.409263,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.nationaalpark-dwingelderveld.nl"
   },
   {
-    "id": "google-earth-253",
+    "id": "nl-sallandse-heuvelrug",
     "name": "Sallandse Heuvelrug",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 52.346905,
     "longitude": 6.418445,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.sallandseheuvelrug.nl"
   },
   {
-    "id": "google-earth-255",
+    "id": "nl-national-park-lauwersmeer",
     "name": "National Park Lauwersmeer",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 53.380174,
     "longitude": 6.187712,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.np-lauwersmeer.nl"
   },
   {
-    "id": "google-earth-256",
+    "id": "nl-schiermonnikoog-national-park",
     "name": "Schiermonnikoog National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 53.477416,
     "longitude": 6.161458,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.np-schiermonnikoog.nl/nl"
   },
   {
-    "id": "google-earth-257",
+    "id": "nl-de-groote-peel-national-park",
     "name": "De Groote Peel National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 51.346545,
     "longitude": 5.817371,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://npdepeel.nl/nl"
   },
   {
-    "id": "google-earth-487",
+    "id": "nl-van-gogh-national-park",
     "name": "Van Gogh National Park",
-    "country": "NL",
+    "country": "Netherlands",
     "code": "NL",
     "latitude": 51.580988,
     "longitude": 5.187157,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": "https://www.vangoghnationalpark.com/nl/homepage"
   }
 ]

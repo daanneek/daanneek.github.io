@@ -1,98 +1,82 @@
 [
   {
-    "id": "google-earth-003",
+    "id": "fr-parc-national-de-forets",
     "name": "Parc national de forêts",
-    "country": "FR",
+    "country": "France",
     "code": "FR",
     "latitude": 47.949141,
     "longitude": 5.007102,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-004",
+    "id": "fr-cevennes-national-park",
     "name": "Cévennes National Park",
-    "country": "FR",
+    "country": "France",
     "code": "FR",
     "latitude": 44.323307,
     "longitude": 3.593426,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-005",
+    "id": "fr-parc-national-des-calanques",
     "name": "Parc national des Calanques",
-    "country": "FR",
+    "country": "France",
     "code": "FR",
     "latitude": 43.217839,
     "longitude": 5.443018,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-006",
+    "id": "fr-parc-national-de-port-cros",
     "name": "Parc national de Port-Cros",
-    "country": "FR",
+    "country": "France",
     "code": "FR",
     "latitude": 43.073926,
     "longitude": 6.384694,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-007",
+    "id": "fr-parc-national-des-pyrenees",
     "name": "Parc national des Pyrénées",
-    "country": "FR",
+    "country": "France",
     "code": "FR",
     "latitude": 42.872209,
     "longitude": -0.083409,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-028",
+    "id": "fr-parc-national-de-la-vanoise",
     "name": "Parc national de la Vanoise",
-    "country": "FR",
+    "country": "France",
     "code": "FR",
     "latitude": 45.336032,
     "longitude": 6.916217,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-029",
+    "id": "fr-parc-national-des-ecrins",
     "name": "Parc national des Écrins",
-    "country": "FR",
+    "country": "France",
     "code": "FR",
     "latitude": 44.83879,
     "longitude": 6.262056,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-030",
+    "id": "fr-parc-national-du-mercantour",
     "name": "Parc national du Mercantour",
-    "country": "FR",
+    "country": "France",
     "code": "FR",
     "latitude": 44.163977,
     "longitude": 7.065413,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

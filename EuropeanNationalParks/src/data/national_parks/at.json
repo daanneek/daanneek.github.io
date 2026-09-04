@@ -1,74 +1,62 @@
 [
   {
-    "id": "google-earth-043",
+    "id": "at-nationalpark-hohe-tauern",
     "name": "Nationalpark Hohe Tauern",
-    "country": "AT",
+    "country": "Austria",
     "code": "AT",
     "latitude": 47.072024,
     "longitude": 12.667666,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-103",
+    "id": "at-nationalpark-gesause",
     "name": "Nationalpark Gesäuse",
-    "country": "AT",
+    "country": "Austria",
     "code": "AT",
     "latitude": 47.565208,
     "longitude": 14.589113,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-104",
+    "id": "at-nationalpark-kalkalpen",
     "name": "Nationalpark Kalkalpen",
-    "country": "AT",
+    "country": "Austria",
     "code": "AT",
     "latitude": 47.782426,
     "longitude": 14.384326,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-105",
+    "id": "at-thayatal-national-park",
     "name": "Thayatal National Park",
-    "country": "AT",
+    "country": "Austria",
     "code": "AT",
     "latitude": 48.844471,
     "longitude": 15.860063,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-276",
+    "id": "at-lake-neusiedl-seewinkel-national-park",
     "name": "Lake Neusiedl - Seewinkel National Park",
-    "country": "AT",
+    "country": "Austria",
     "code": "AT",
     "latitude": 47.77046,
     "longitude": 16.801729,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-277",
+    "id": "at-nationalpark-donau-auen",
     "name": "Nationalpark Donau-Auen",
-    "country": "AT",
+    "country": "Austria",
     "code": "AT",
     "latitude": 48.194417,
     "longitude": 16.468985,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

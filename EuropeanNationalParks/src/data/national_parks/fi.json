@@ -1,482 +1,402 @@
 [
   {
-    "id": "google-earth-224",
+    "id": "fi-pallas-yllastunturi-national-park",
     "name": "Pallas-Yllästunturi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 67.966667,
     "longitude": 24.133333,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-225",
+    "id": "fi-pyha-luosto-national-park",
     "name": "Pyhä-Luosto National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 67.085197,
     "longitude": 26.919739,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-226",
+    "id": "fi-oulanka-national-park",
     "name": "Oulanka National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 66.374572,
     "longitude": 29.322234,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-227",
+    "id": "fi-riisitunturi-national-park",
     "name": "Riisitunturi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 66.2157,
     "longitude": 28.586278,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-228",
+    "id": "fi-koli-national-park",
     "name": "Koli National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 63.096858,
     "longitude": 29.806231,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-229",
+    "id": "fi-nuuksio-national-park",
     "name": "Nuuksio National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 60.292729,
     "longitude": 24.556511,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-230",
+    "id": "fi-repovesi-national-park",
     "name": "Repovesi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 61.187995,
     "longitude": 26.902364,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-231",
+    "id": "fi-urho-kekkonen-national-park",
     "name": "Urho Kekkonen National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 68.166667,
     "longitude": 28.25,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-232",
+    "id": "fi-archipelago-national-park",
     "name": "Archipelago National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 59.93454,
     "longitude": 21.811538,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-333",
+    "id": "fi-sipoonkorpi-national-park",
     "name": "Sipoonkorpi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 60.31165,
     "longitude": 25.161534,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-334",
+    "id": "fi-teijo-national-park",
     "name": "Teijo National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 60.209994,
     "longitude": 22.937817,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-335",
+    "id": "fi-perameri-national-park",
     "name": "Perämeri National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 65.629059,
     "longitude": 24.319009,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-336",
+    "id": "fi-selkameri-national-park-pori",
     "name": "Selkämeri National Park (Pori)",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 61.535468,
     "longitude": 21.564002,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-337",
+    "id": "fi-eastern-gulf-of-finland-national-park",
     "name": "Eastern Gulf of Finland National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 60.348101,
     "longitude": 27.456857,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-338",
+    "id": "fi-ekenas-archipelago-national-park",
     "name": "Ekenäs Archipelago National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 59.872806,
     "longitude": 23.397055,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-339",
+    "id": "fi-helvetinjarvi-national-park",
     "name": "Helvetinjärvi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 62.023412,
     "longitude": 23.84635,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-340",
+    "id": "fi-hiidenportti-national-park",
     "name": "Hiidenportti National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 63.902086,
     "longitude": 28.984853,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-341",
+    "id": "fi-hossa-national-park",
     "name": "Hossa National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 65.467649,
     "longitude": 29.518354,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-342",
+    "id": "fi-isojarvi-national-park",
     "name": "Isojärvi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 61.690591,
     "longitude": 25.002154,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-343",
+    "id": "fi-kauhaneva-pohjankangas-national-park",
     "name": "Kauhaneva-Pohjankangas national park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 62.239574,
     "longitude": 22.323431,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-344",
+    "id": "fi-kolovesi-national-park",
     "name": "Kolovesi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 62.252307,
     "longitude": 28.81853,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-345",
+    "id": "fi-kurjenrahka-national-park",
     "name": "Kurjenrahka National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 60.739957,
     "longitude": 22.41303,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-346",
+    "id": "fi-lauhanvuori-national-park",
     "name": "Lauhanvuori National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 62.152116,
     "longitude": 22.175126,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-347",
+    "id": "fi-leivonmaki-national-park",
     "name": "Leivonmäki National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 61.934819,
     "longitude": 25.97981,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-348",
+    "id": "fi-lemmenjoki-national-park",
     "name": "Lemmenjoki National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 68.638819,
     "longitude": 25.598536,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-349",
+    "id": "fi-liesjarvi-national-park",
     "name": "Liesjärvi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 60.653589,
     "longitude": 23.897718,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-350",
+    "id": "fi-linnansaari-national-park",
     "name": "Linnansaari National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 62.110135,
     "longitude": 28.512188,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-351",
+    "id": "fi-paijanne-national-park",
     "name": "Päijänne National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 61.298923,
     "longitude": 25.53494,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-352",
+    "id": "fi-patvinsuo-national-park",
     "name": "Patvinsuo National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 63.113122,
     "longitude": 30.701186,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-353",
+    "id": "fi-petkeljarvi-national-park",
     "name": "Petkeljärvi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 62.578548,
     "longitude": 31.174638,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-354",
+    "id": "fi-puurijarvi-isosuo-national-park",
     "name": "Puurijärvi-Isosuo National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 61.253986,
     "longitude": 22.587693,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-355",
+    "id": "fi-pyha-hakki-national-park",
     "name": "Pyhä-Häkki National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 62.844833,
     "longitude": 25.469398,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-356",
+    "id": "fi-rokua-national-park",
     "name": "Rokua National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 64.586423,
     "longitude": 26.505276,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-357",
+    "id": "fi-salamajarvi-national-park",
     "name": "Salamajärvi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 63.235787,
     "longitude": 24.822932,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-358",
+    "id": "fi-seitseminen-national-park",
     "name": "Seitseminen National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 61.969428,
     "longitude": 23.361343,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-359",
+    "id": "fi-etela-konnevesi-national-park",
     "name": "Etelä-Konnevesi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 62.592453,
     "longitude": 26.708972,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-360",
+    "id": "fi-syote-national-park",
     "name": "Syöte National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 65.634449,
     "longitude": 27.606997,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-361",
+    "id": "fi-tiilikkajarvi-national-park",
     "name": "Tiilikkajärvi National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 63.661472,
     "longitude": 28.299396,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-362",
+    "id": "fi-torronsuo-national-park",
     "name": "Torronsuo National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 60.731349,
     "longitude": 23.632566,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-363",
+    "id": "fi-valkmusa-national-park",
     "name": "Valkmusa National Park",
-    "country": "FI",
+    "country": "Finland",
     "code": "FI",
     "latitude": 60.572054,
     "longitude": 26.705125,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

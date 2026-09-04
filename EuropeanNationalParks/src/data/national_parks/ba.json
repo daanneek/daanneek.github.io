@@ -1,50 +1,42 @@
 [
   {
-    "id": "google-earth-058",
+    "id": "ba-nacionalni-park-una",
     "name": "Nacionalni park Una",
-    "country": "BA",
+    "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 44.698205,
     "longitude": 16.00647,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-061",
+    "id": "ba-sutjeska-national-park",
     "name": "Sutjeska National Park",
-    "country": "BA",
+    "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 43.303744,
     "longitude": 18.694726,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-063",
+    "id": "ba-kozara-national-park",
     "name": "Kozara National Park",
-    "country": "BA",
+    "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 45.014116,
     "longitude": 16.910812,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-071",
+    "id": "ba-nacionalni-park-drina",
     "name": "Nacionalni Park „Drina“",
-    "country": "BA",
+    "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 43.97103,
     "longitude": 19.532863,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]

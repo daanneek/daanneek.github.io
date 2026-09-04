@@ -1,50 +1,42 @@
 [
   {
-    "id": "google-earth-072",
+    "id": "mk-mavrovo-national-park",
     "name": "Mavrovo National Park",
-    "country": "MK",
+    "country": "North Macedonia",
     "code": "MK",
     "latitude": 41.65959,
     "longitude": 20.735954,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-094",
+    "id": "mk-sar-mountain-national-park",
     "name": "Šar Mountain National Park",
-    "country": "MK",
+    "country": "North Macedonia",
     "code": "MK",
     "latitude": 41.989866,
     "longitude": 20.884158,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-123",
+    "id": "mk-national-park-galicica",
     "name": "National Park Galicica",
-    "country": "MK",
+    "country": "North Macedonia",
     "code": "MK",
     "latitude": 40.967271,
     "longitude": 20.840078,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   },
   {
-    "id": "google-earth-127",
+    "id": "mk-national-park-pelister",
     "name": "National park Pelister",
-    "country": "MK",
+    "country": "North Macedonia",
     "code": "MK",
     "latitude": 41.001455,
     "longitude": 21.212962,
     "description": "",
-    "source": "Google Earth project: National Parks in Europe",
-    "sourceAsOf": "2025-01-01",
-    "sourceFile": "National Parks in Europe.kml"
+    "website": ""
   }
 ]
